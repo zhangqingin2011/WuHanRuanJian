@@ -1,0 +1,1694 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HNCCommonData.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:HNCAPI.Data.Fakes.ShimCHANNEL_STATUS">
+            <summary>HNCAPI.Data.CHANNEL_STATUS 的填充码类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimCHANNEL_STATUS.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimCHANNEL_STATUS.#ctor(HNCAPI.Data.CHANNEL_STATUS)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimCHANNEL_STATUS.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimCHANNEL_STATUS.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimCHANNEL_STATUS.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimCHANNEL_STATUS.Constructor">
+            <summary>设置 CHANNEL_STATUS.CHANNEL_STATUS() 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimCHANNEL_STATUS.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimHncMessage`1">
+            <summary>HNCAPI.Data.HncMessage`1 的填充码类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimHncMessage`1.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimHncMessage`1.#ctor(HNCAPI.Data.HncMessage{`0})">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimHncMessage`1.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimHncMessage`1.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimHncMessage`1.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimHncMessage`1.BodyGet">
+            <summary>设置 HncMessage`1.get_Body() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimHncMessage`1.BodySetT0">
+            <summary>设置 HncMessage`1.set_Body(!0 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimHncMessage`1.Constructor">
+            <summary>设置 HncMessage`1.HncMessage`1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimHncMessage`1.HeaderGet">
+            <summary>设置 HncMessage`1.get_Header() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimHncMessage`1.HeaderSetString">
+            <summary>设置 HncMessage`1.set_Header(String value) 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimHncMessage`1.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimHncMessage`1.AllInstances.BodyGet">
+            <summary>设置 HncMessage`1.get_Body() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimHncMessage`1.AllInstances.BodySetT0">
+            <summary>设置 HncMessage`1.set_Body(!0 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimHncMessage`1.AllInstances.HeaderGet">
+            <summary>设置 HncMessage`1.get_Header() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimHncMessage`1.AllInstances.HeaderSetString">
+            <summary>设置 HncMessage`1.set_Header(String value) 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimNCMessage">
+            <summary>HNCAPI.Data.NCMessage 的填充码类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimNCMessage.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimNCMessage.#ctor(HNCAPI.Data.NCMessage)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimNCMessage.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimNCMessage.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.Constructor">
+            <summary>设置 NCMessage.NCMessage() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.IndexGet">
+            <summary>设置 NCMessage.get_Index() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.IndexSetInt32">
+            <summary>设置 NCMessage.set_Index(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.SubTypeGet">
+            <summary>设置 NCMessage.get_SubType() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.SubTypeSetString">
+            <summary>设置 NCMessage.set_SubType(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.ToString">
+            <summary>设置 NCMessage.ToString() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.TypeGet">
+            <summary>设置 NCMessage.get_Type() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.TypeSetString">
+            <summary>设置 NCMessage.set_Type(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.ValueGet">
+            <summary>设置 NCMessage.get_Value() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.ValueSetString">
+            <summary>设置 NCMessage.set_Value(String value) 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimNCMessage.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.AllInstances.IndexGet">
+            <summary>设置 NCMessage.get_Index() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.AllInstances.IndexSetInt32">
+            <summary>设置 NCMessage.set_Index(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.AllInstances.SubTypeGet">
+            <summary>设置 NCMessage.get_SubType() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.AllInstances.SubTypeSetString">
+            <summary>设置 NCMessage.set_SubType(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.AllInstances.ToString01">
+            <summary>设置 NCMessage.ToString() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.AllInstances.TypeGet">
+            <summary>设置 NCMessage.get_Type() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.AllInstances.TypeSetString">
+            <summary>设置 NCMessage.set_Type(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.AllInstances.ValueGet">
+            <summary>设置 NCMessage.get_Value() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessage.AllInstances.ValueSetString">
+            <summary>设置 NCMessage.set_Value(String value) 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimNCMessageFunction">
+            <summary>HNCAPI.Data.NCMessageFunction 的填充码类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimNCMessageFunction.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimNCMessageFunction.#ctor(HNCAPI.Data.NCMessageFunction)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimNCMessageFunction.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimNCMessageFunction.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessageFunction.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessageFunction.Constructor">
+            <summary>设置 NCMessageFunction.NCMessageFunction() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimNCMessageFunction.StaticConstructor">
+            <summary>设置 NCMessageFunction.NCMessageFunction() 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimNCMessageFunction.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimParameter`1">
+            <summary>HNCAPI.Data.Parameter`1 的填充码类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimParameter`1.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimParameter`1.#ctor(HNCAPI.Data.Parameter{`0})">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimParameter`1.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimParameter`1.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.Constructor">
+            <summary>设置 Parameter`1.Parameter`1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.DefaultValueGet">
+            <summary>设置 Parameter`1.get_DefaultValue() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.DefaultValueSetT0">
+            <summary>设置 Parameter`1.set_DefaultValue(!0 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.EffectWayGet">
+            <summary>设置 Parameter`1.get_EffectWay() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.EffectWaySetInt32">
+            <summary>设置 Parameter`1.set_EffectWay(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.IdGet">
+            <summary>设置 Parameter`1.get_Id() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.IdSetInt32">
+            <summary>设置 Parameter`1.set_Id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.MaxValueGet">
+            <summary>设置 Parameter`1.get_MaxValue() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.MaxValueSetT0">
+            <summary>设置 Parameter`1.set_MaxValue(!0 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.MinValueGet">
+            <summary>设置 Parameter`1.get_MinValue() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.MinValueSetT0">
+            <summary>设置 Parameter`1.set_MinValue(!0 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.NameGet">
+            <summary>设置 Parameter`1.get_Name() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.NameSetString">
+            <summary>设置 Parameter`1.set_Name(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.PropValueGet">
+            <summary>设置 Parameter`1.get_PropValue() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.PropValueSetT0">
+            <summary>设置 Parameter`1.set_PropValue(!0 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.StoreTypeGet">
+            <summary>设置 Parameter`1.get_StoreType() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.StoreTypeSetInt32">
+            <summary>设置 Parameter`1.set_StoreType(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.ToString">
+            <summary>设置 Parameter`1.ToString() 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.DefaultValueGet">
+            <summary>设置 Parameter`1.get_DefaultValue() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.DefaultValueSetT0">
+            <summary>设置 Parameter`1.set_DefaultValue(!0 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.EffectWayGet">
+            <summary>设置 Parameter`1.get_EffectWay() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.EffectWaySetInt32">
+            <summary>设置 Parameter`1.set_EffectWay(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.IdGet">
+            <summary>设置 Parameter`1.get_Id() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.IdSetInt32">
+            <summary>设置 Parameter`1.set_Id(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.MaxValueGet">
+            <summary>设置 Parameter`1.get_MaxValue() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.MaxValueSetT0">
+            <summary>设置 Parameter`1.set_MaxValue(!0 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.MinValueGet">
+            <summary>设置 Parameter`1.get_MinValue() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.MinValueSetT0">
+            <summary>设置 Parameter`1.set_MinValue(!0 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.NameGet">
+            <summary>设置 Parameter`1.get_Name() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.NameSetString">
+            <summary>设置 Parameter`1.set_Name(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.PropValueGet">
+            <summary>设置 Parameter`1.get_PropValue() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.PropValueSetT0">
+            <summary>设置 Parameter`1.set_PropValue(!0 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.StoreTypeGet">
+            <summary>设置 Parameter`1.get_StoreType() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.StoreTypeSetInt32">
+            <summary>设置 Parameter`1.set_StoreType(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimParameter`1.AllInstances.ToString01">
+            <summary>设置 Parameter`1.ToString() 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimSampleCode">
+            <summary>HNCAPI.Data.SampleCode 的填充码类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimSampleCode.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimSampleCode.#ctor(HNCAPI.Data.SampleCode)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimSampleCode.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimSampleCode.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.Clone">
+            <summary>设置 SampleCode.Clone() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.Constructor">
+            <summary>设置 SampleCode.SampleCode() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.DataGet">
+            <summary>设置 SampleCode.get_Data() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.GCodeFileGet">
+            <summary>设置 SampleCode.get_GCodeFile() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.GCodeFileSetString">
+            <summary>设置 SampleCode.set_GCodeFile(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.JobIdGet">
+            <summary>设置 SampleCode.get_JobId() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.JobIdSetString">
+            <summary>设置 SampleCode.set_JobId(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.LineIdGet">
+            <summary>设置 SampleCode.get_LineId() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.LineIdSetInt32">
+            <summary>设置 SampleCode.set_LineId(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.ProIdGet">
+            <summary>设置 SampleCode.get_ProId() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.ProIdSetString">
+            <summary>设置 SampleCode.set_ProId(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.SampleDateGet">
+            <summary>设置 SampleCode.get_SampleDate() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.SampleDateSetString">
+            <summary>设置 SampleCode.set_SampleDate(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.SecIdGet">
+            <summary>设置 SampleCode.get_SecId() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.SecIdSetInt32">
+            <summary>设置 SampleCode.set_SecId(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimSampleCode.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.AllInstances.Clone">
+            <summary>设置 SampleCode.Clone() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.AllInstances.DataGet">
+            <summary>设置 SampleCode.get_Data() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.AllInstances.GCodeFileGet">
+            <summary>设置 SampleCode.get_GCodeFile() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.AllInstances.GCodeFileSetString">
+            <summary>设置 SampleCode.set_GCodeFile(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.AllInstances.JobIdGet">
+            <summary>设置 SampleCode.get_JobId() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.AllInstances.JobIdSetString">
+            <summary>设置 SampleCode.set_JobId(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.AllInstances.LineIdGet">
+            <summary>设置 SampleCode.get_LineId() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.AllInstances.LineIdSetInt32">
+            <summary>设置 SampleCode.set_LineId(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.AllInstances.ProIdGet">
+            <summary>设置 SampleCode.get_ProId() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.AllInstances.ProIdSetString">
+            <summary>设置 SampleCode.set_ProId(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.AllInstances.SampleDateGet">
+            <summary>设置 SampleCode.get_SampleDate() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.AllInstances.SampleDateSetString">
+            <summary>设置 SampleCode.set_SampleDate(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.AllInstances.SecIdGet">
+            <summary>设置 SampleCode.get_SecId() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleCode.AllInstances.SecIdSetInt32">
+            <summary>设置 SampleCode.set_SecId(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimSampleConfigure">
+            <summary>HNCAPI.Data.SampleConfigure 的填充码类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimSampleConfigure.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimSampleConfigure.#ctor(HNCAPI.Data.SampleConfigure)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimSampleConfigure.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimSampleConfigure.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.ChannelGet">
+            <summary>设置 SampleConfigure.get_Channel() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.ChannelSetInt32">
+            <summary>设置 SampleConfigure.set_Channel(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.ComponentGet">
+            <summary>设置 SampleConfigure.get_Component() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.ComponentSetInt32">
+            <summary>设置 SampleConfigure.set_Component(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.ConstructorInt32Int32SampleTypeInt32Int32Int32">
+            <summary>设置 SampleConfigure.SampleConfigure(Int32 channel, Int32 component, SampleType type, Int32 multipleCof, Int32 divideCof, Int32 offsetCof) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.DivideCofGet">
+            <summary>设置 SampleConfigure.get_DivideCof() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.DivideCofSetInt32">
+            <summary>设置 SampleConfigure.set_DivideCof(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.MultipleCofGet">
+            <summary>设置 SampleConfigure.get_MultipleCof() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.MultipleCofSetInt32">
+            <summary>设置 SampleConfigure.set_MultipleCof(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.OffsetCofGet">
+            <summary>设置 SampleConfigure.get_OffsetCof() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.OffsetCofSetInt32">
+            <summary>设置 SampleConfigure.set_OffsetCof(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.SampleTypeGet">
+            <summary>设置 SampleConfigure.get_SampleType() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.SampleTypeSetSampleType">
+            <summary>设置 SampleConfigure.set_SampleType(SampleType value) 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimSampleConfigure.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.AllInstances.ChannelGet">
+            <summary>设置 SampleConfigure.get_Channel() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.AllInstances.ChannelSetInt32">
+            <summary>设置 SampleConfigure.set_Channel(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.AllInstances.ComponentGet">
+            <summary>设置 SampleConfigure.get_Component() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.AllInstances.ComponentSetInt32">
+            <summary>设置 SampleConfigure.set_Component(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.AllInstances.DivideCofGet">
+            <summary>设置 SampleConfigure.get_DivideCof() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.AllInstances.DivideCofSetInt32">
+            <summary>设置 SampleConfigure.set_DivideCof(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.AllInstances.MultipleCofGet">
+            <summary>设置 SampleConfigure.get_MultipleCof() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.AllInstances.MultipleCofSetInt32">
+            <summary>设置 SampleConfigure.set_MultipleCof(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.AllInstances.OffsetCofGet">
+            <summary>设置 SampleConfigure.get_OffsetCof() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.AllInstances.OffsetCofSetInt32">
+            <summary>设置 SampleConfigure.set_OffsetCof(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.AllInstances.SampleTypeGet">
+            <summary>设置 SampleConfigure.get_SampleType() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleConfigure.AllInstances.SampleTypeSetSampleType">
+            <summary>设置 SampleConfigure.set_SampleType(SampleType value) 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimSampleMessge">
+            <summary>HNCAPI.Data.SampleMessge 的填充码类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimSampleMessge.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimSampleMessge.#ctor(HNCAPI.Data.SampleMessge)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimSampleMessge.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimSampleMessge.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleMessge.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleMessge.ChannelGet">
+            <summary>设置 SampleMessge.get_Channel() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleMessge.ChannelSetString">
+            <summary>设置 SampleMessge.set_Channel(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleMessge.ComponentIdGet">
+            <summary>设置 SampleMessge.get_ComponentId() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleMessge.ComponentIdSetListOfInt32">
+            <summary>设置 SampleMessge.set_ComponentId(List`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleMessge.Constructor">
+            <summary>设置 SampleMessge.SampleMessge() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleMessge.DateTypeGet">
+            <summary>设置 SampleMessge.get_DateType() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleMessge.DateTypeSetListOfSampleType">
+            <summary>设置 SampleMessge.set_DateType(List`1&lt;SampleType&gt; value) 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimSampleMessge.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleMessge.AllInstances.ChannelGet">
+            <summary>设置 SampleMessge.get_Channel() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleMessge.AllInstances.ChannelSetString">
+            <summary>设置 SampleMessge.set_Channel(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleMessge.AllInstances.ComponentIdGet">
+            <summary>设置 SampleMessge.get_ComponentId() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleMessge.AllInstances.ComponentIdSetListOfInt32">
+            <summary>设置 SampleMessge.set_ComponentId(List`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleMessge.AllInstances.DateTypeGet">
+            <summary>设置 SampleMessge.get_DateType() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimSampleMessge.AllInstances.DateTypeSetListOfSampleType">
+            <summary>设置 SampleMessge.set_DateType(List`1&lt;SampleType&gt; value) 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimToolBrokenInfo">
+            <summary>HNCAPI.Data.ToolBrokenInfo 的填充码类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimToolBrokenInfo.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimToolBrokenInfo.#ctor(HNCAPI.Data.ToolBrokenInfo)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimToolBrokenInfo.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.ShimToolBrokenInfo.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.ChannelGet">
+            <summary>设置 ToolBrokenInfo.get_Channel() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.ChannelSetString">
+            <summary>设置 ToolBrokenInfo.set_Channel(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.Constructor">
+            <summary>设置 ToolBrokenInfo.ToolBrokenInfo() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.GCodeFileGet">
+            <summary>设置 ToolBrokenInfo.get_GCodeFile() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.GCodeFileSetString">
+            <summary>设置 ToolBrokenInfo.set_GCodeFile(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.IsBrokenGet">
+            <summary>设置 ToolBrokenInfo.get_IsBroken() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.IsBrokenSetBoolean">
+            <summary>设置 ToolBrokenInfo.set_IsBroken(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.ToolNoGet">
+            <summary>设置 ToolBrokenInfo.get_ToolNo() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.ToolNoSetInt32">
+            <summary>设置 ToolBrokenInfo.set_ToolNo(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.ShimToolBrokenInfo.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.AllInstances.ChannelGet">
+            <summary>设置 ToolBrokenInfo.get_Channel() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.AllInstances.ChannelSetString">
+            <summary>设置 ToolBrokenInfo.set_Channel(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.AllInstances.GCodeFileGet">
+            <summary>设置 ToolBrokenInfo.get_GCodeFile() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.AllInstances.GCodeFileSetString">
+            <summary>设置 ToolBrokenInfo.set_GCodeFile(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.AllInstances.IsBrokenGet">
+            <summary>设置 ToolBrokenInfo.get_IsBroken() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.AllInstances.IsBrokenSetBoolean">
+            <summary>设置 ToolBrokenInfo.set_IsBroken(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.AllInstances.ToolNoGet">
+            <summary>设置 ToolBrokenInfo.get_ToolNo() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.ShimToolBrokenInfo.AllInstances.ToolNoSetInt32">
+            <summary>设置 ToolBrokenInfo.set_ToolNo(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.StubCHANNEL_STATUS">
+            <summary>HNCAPI.Data.CHANNEL_STATUS 的存根类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubCHANNEL_STATUS.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubCHANNEL_STATUS.InitializeStub">
+            <summary>初始化 type StubCHANNEL_STATUS 的新实例</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubCHANNEL_STATUS.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubCHANNEL_STATUS.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubCHANNEL_STATUS.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.StubHncMessage`1">
+            <summary>HNCAPI.Data.HncMessage`1 的存根类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubHncMessage`1.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubHncMessage`1.InitializeStub">
+            <summary>初始化 type StubHncMessage 的新实例</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubHncMessage`1.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubHncMessage`1.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubHncMessage`1.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.StubNCMessage">
+            <summary>HNCAPI.Data.NCMessage 的存根类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubNCMessage.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubNCMessage.InitializeStub">
+            <summary>初始化 type StubNCMessage 的新实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubNCMessage.ToString">
+            <summary>设置 NCMessage.ToString() 的 存根</summary>
+        </member>
+        <member name="F:HNCAPI.Data.Fakes.StubNCMessage.ToString01">
+            <summary>设置 NCMessage.ToString() 的 stub</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubNCMessage.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubNCMessage.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubNCMessage.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.StubNCMessageFunction">
+            <summary>HNCAPI.Data.NCMessageFunction 的存根类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubNCMessageFunction.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubNCMessageFunction.InitializeStub">
+            <summary>初始化 type StubNCMessageFunction 的新实例</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubNCMessageFunction.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubNCMessageFunction.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubNCMessageFunction.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.StubParameter`1">
+            <summary>HNCAPI.Data.Parameter`1 的存根类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubParameter`1.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubParameter`1.InitializeStub">
+            <summary>初始化 type StubParameter 的新实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubParameter`1.ToString">
+            <summary>设置 Parameter`1.ToString() 的 存根</summary>
+        </member>
+        <member name="F:HNCAPI.Data.Fakes.StubParameter`1.ToString01">
+            <summary>设置 Parameter`1.ToString() 的 stub</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubParameter`1.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubParameter`1.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubParameter`1.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.StubSampleCode">
+            <summary>HNCAPI.Data.SampleCode 的存根类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubSampleCode.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubSampleCode.InitializeStub">
+            <summary>初始化 type StubSampleCode 的新实例</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubSampleCode.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubSampleCode.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubSampleCode.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.StubSampleConfigure">
+            <summary>HNCAPI.Data.SampleConfigure 的存根类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubSampleConfigure.#ctor(System.Int32,System.Int32,HNCAPI.Data.SampleType,System.Int32,System.Int32,System.Int32)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubSampleConfigure.InitializeStub">
+            <summary>初始化 type StubSampleConfigure 的新实例</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubSampleConfigure.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubSampleConfigure.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubSampleConfigure.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.StubSampleMessge">
+            <summary>HNCAPI.Data.SampleMessge 的存根类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubSampleMessge.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubSampleMessge.InitializeStub">
+            <summary>初始化 type StubSampleMessge 的新实例</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubSampleMessge.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubSampleMessge.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubSampleMessge.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:HNCAPI.Data.Fakes.StubToolBrokenInfo">
+            <summary>HNCAPI.Data.ToolBrokenInfo 的存根类型</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubToolBrokenInfo.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:HNCAPI.Data.Fakes.StubToolBrokenInfo.InitializeStub">
+            <summary>初始化 type StubToolBrokenInfo 的新实例</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubToolBrokenInfo.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubToolBrokenInfo.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:HNCAPI.Data.Fakes.StubToolBrokenInfo.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:HNCAPI.Fakes.ShimTool">
+            <summary>HNCAPI.Tool 的填充码类型</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.ShimTool.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.ShimTool.#ctor(HNCAPI.Tool)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.ShimTool.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.ShimTool.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.Constructor">
+            <summary>设置 Tool.Tool() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.EXTOOL_F_LIMITGet">
+            <summary>设置 Tool.get_EXTOOL_F_LIMIT() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.EXTOOL_F_LIMITSetString">
+            <summary>设置 Tool.set_EXTOOL_F_LIMIT(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.EXTOOL_LARGE_LEFTGet">
+            <summary>设置 Tool.get_EXTOOL_LARGE_LEFT() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.EXTOOL_LARGE_LEFTSetString">
+            <summary>设置 Tool.set_EXTOOL_LARGE_LEFT(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.EXTOOL_LARGE_RIGHTGet">
+            <summary>设置 Tool.get_EXTOOL_LARGE_RIGHT() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.EXTOOL_LARGE_RIGHTSetString">
+            <summary>设置 Tool.set_EXTOOL_LARGE_RIGHT(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.EXTOOL_S_LIMITGet">
+            <summary>设置 Tool.get_EXTOOL_S_LIMIT() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.EXTOOL_S_LIMITSetString">
+            <summary>设置 Tool.set_EXTOOL_S_LIMIT(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_ANG1Get">
+            <summary>设置 Tool.get_GTOOL_ANG1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_ANG1SetString">
+            <summary>设置 Tool.set_GTOOL_ANG1(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_ANG2Get">
+            <summary>设置 Tool.get_GTOOL_ANG2() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_ANG2SetString">
+            <summary>设置 Tool.set_GTOOL_ANG2(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_DIRGet">
+            <summary>设置 Tool.get_GTOOL_DIR() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_DIRSetString">
+            <summary>设置 Tool.set_GTOOL_DIR(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_LEN1Get">
+            <summary>设置 Tool.get_GTOOL_LEN1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_LEN1SetString">
+            <summary>设置 Tool.set_GTOOL_LEN1(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_LEN2Get">
+            <summary>设置 Tool.get_GTOOL_LEN2() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_LEN2SetString">
+            <summary>设置 Tool.set_GTOOL_LEN2(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_LEN3Get">
+            <summary>设置 Tool.get_GTOOL_LEN3() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_LEN3SetString">
+            <summary>设置 Tool.set_GTOOL_LEN3(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_LEN4Get">
+            <summary>设置 Tool.get_GTOOL_LEN4() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_LEN4SetString">
+            <summary>设置 Tool.set_GTOOL_LEN4(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_LEN5Get">
+            <summary>设置 Tool.get_GTOOL_LEN5() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_LEN5SetString">
+            <summary>设置 Tool.set_GTOOL_LEN5(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_RAD1Get">
+            <summary>设置 Tool.get_GTOOL_RAD1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_RAD1SetString">
+            <summary>设置 Tool.set_GTOOL_RAD1(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_RAD2Get">
+            <summary>设置 Tool.get_GTOOL_RAD2() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.GTOOL_RAD2SetString">
+            <summary>设置 Tool.set_GTOOL_RAD2(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.INFTOOL_CHGet">
+            <summary>设置 Tool.get_INFTOOL_CH() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.INFTOOL_CHSetString">
+            <summary>设置 Tool.set_INFTOOL_CH(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.INFTOOL_G64MODEGet">
+            <summary>设置 Tool.get_INFTOOL_G64MODE() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.INFTOOL_G64MODESetString">
+            <summary>设置 Tool.set_INFTOOL_G64MODE(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.INFTOOL_IDGet">
+            <summary>设置 Tool.get_INFTOOL_ID() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.INFTOOL_IDSetString">
+            <summary>设置 Tool.set_INFTOOL_ID(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.INFTOOL_MAGZGet">
+            <summary>设置 Tool.get_INFTOOL_MAGZ() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.INFTOOL_MAGZSetString">
+            <summary>设置 Tool.set_INFTOOL_MAGZ(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.INFTOOL_STATEGet">
+            <summary>设置 Tool.get_INFTOOL_STATE() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.INFTOOL_STATESetString">
+            <summary>设置 Tool.set_INFTOOL_STATE(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA0Get">
+            <summary>设置 Tool.get_METOOL_PARA0() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA0SetString">
+            <summary>设置 Tool.set_METOOL_PARA0(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA1Get">
+            <summary>设置 Tool.get_METOOL_PARA1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA1SetString">
+            <summary>设置 Tool.set_METOOL_PARA1(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA2Get">
+            <summary>设置 Tool.get_METOOL_PARA2() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA2SetString">
+            <summary>设置 Tool.set_METOOL_PARA2(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA3Get">
+            <summary>设置 Tool.get_METOOL_PARA3() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA3SetString">
+            <summary>设置 Tool.set_METOOL_PARA3(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA4Get">
+            <summary>设置 Tool.get_METOOL_PARA4() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA4SetString">
+            <summary>设置 Tool.set_METOOL_PARA4(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA5Get">
+            <summary>设置 Tool.get_METOOL_PARA5() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA5SetString">
+            <summary>设置 Tool.set_METOOL_PARA5(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA6Get">
+            <summary>设置 Tool.get_METOOL_PARA6() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA6SetString">
+            <summary>设置 Tool.set_METOOL_PARA6(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA7Get">
+            <summary>设置 Tool.get_METOOL_PARA7() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA7SetString">
+            <summary>设置 Tool.set_METOOL_PARA7(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA8Get">
+            <summary>设置 Tool.get_METOOL_PARA8() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA8SetString">
+            <summary>设置 Tool.set_METOOL_PARA8(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA9Get">
+            <summary>设置 Tool.get_METOOL_PARA9() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.METOOL_PARA9SetString">
+            <summary>设置 Tool.set_METOOL_PARA9(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_ACT_COUNTGet">
+            <summary>设置 Tool.get_MOTOOL_ACT_COUNT() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_ACT_COUNTSetString">
+            <summary>设置 Tool.set_MOTOOL_ACT_COUNT(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_ACT_LIFEGet">
+            <summary>设置 Tool.get_MOTOOL_ACT_LIFE() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_ACT_LIFESetString">
+            <summary>设置 Tool.set_MOTOOL_ACT_LIFE(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_ALM_COUNTGet">
+            <summary>设置 Tool.get_MOTOOL_ALM_COUNT() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_ALM_COUNTSetString">
+            <summary>设置 Tool.set_MOTOOL_ALM_COUNT(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_ALM_LIFEGet">
+            <summary>设置 Tool.get_MOTOOL_ALM_LIFE() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_ALM_LIFESetString">
+            <summary>设置 Tool.set_MOTOOL_ALM_LIFE(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_GROUPGet">
+            <summary>设置 Tool.get_MOTOOL_GROUP() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_GROUPSetString">
+            <summary>设置 Tool.set_MOTOOL_GROUP(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_MAX_COUNTGet">
+            <summary>设置 Tool.get_MOTOOL_MAX_COUNT() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_MAX_COUNTSetString">
+            <summary>设置 Tool.set_MOTOOL_MAX_COUNT(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_MAX_LIFEGet">
+            <summary>设置 Tool.get_MOTOOL_MAX_LIFE() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_MAX_LIFESetString">
+            <summary>设置 Tool.set_MOTOOL_MAX_LIFE(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_MULTIGet">
+            <summary>设置 Tool.get_MOTOOL_MULTI() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_MULTISetString">
+            <summary>设置 Tool.set_MOTOOL_MULTI(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_SEQUGet">
+            <summary>设置 Tool.get_MOTOOL_SEQU() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_SEQUSetString">
+            <summary>设置 Tool.set_MOTOOL_SEQU(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_TYPEGet">
+            <summary>设置 Tool.get_MOTOOL_TYPE() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.MOTOOL_TYPESetString">
+            <summary>设置 Tool.set_MOTOOL_TYPE(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA0Get">
+            <summary>设置 Tool.get_TETOOL_PARA0() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA0SetString">
+            <summary>设置 Tool.set_TETOOL_PARA0(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA1Get">
+            <summary>设置 Tool.get_TETOOL_PARA1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA1SetString">
+            <summary>设置 Tool.set_TETOOL_PARA1(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA2Get">
+            <summary>设置 Tool.get_TETOOL_PARA2() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA2SetString">
+            <summary>设置 Tool.set_TETOOL_PARA2(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA3Get">
+            <summary>设置 Tool.get_TETOOL_PARA3() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA3SetString">
+            <summary>设置 Tool.set_TETOOL_PARA3(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA4Get">
+            <summary>设置 Tool.get_TETOOL_PARA4() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA4SetString">
+            <summary>设置 Tool.set_TETOOL_PARA4(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA5Get">
+            <summary>设置 Tool.get_TETOOL_PARA5() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA5SetString">
+            <summary>设置 Tool.set_TETOOL_PARA5(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA6Get">
+            <summary>设置 Tool.get_TETOOL_PARA6() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA6SetString">
+            <summary>设置 Tool.set_TETOOL_PARA6(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA7Get">
+            <summary>设置 Tool.get_TETOOL_PARA7() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA7SetString">
+            <summary>设置 Tool.set_TETOOL_PARA7(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA8Get">
+            <summary>设置 Tool.get_TETOOL_PARA8() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA8SetString">
+            <summary>设置 Tool.set_TETOOL_PARA8(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA9Get">
+            <summary>设置 Tool.get_TETOOL_PARA9() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TETOOL_PARA9SetString">
+            <summary>设置 Tool.set_TETOOL_PARA9(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TOOL_TYPEGet">
+            <summary>设置 Tool.get_TOOL_TYPE() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.TOOL_TYPESetString">
+            <summary>设置 Tool.set_TOOL_TYPE(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.ToString">
+            <summary>设置 Tool.ToString() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_ANG1Get">
+            <summary>设置 Tool.get_WTOOL_ANG1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_ANG1SetString">
+            <summary>设置 Tool.set_WTOOL_ANG1(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_ANG2Get">
+            <summary>设置 Tool.get_WTOOL_ANG2() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_ANG2SetString">
+            <summary>设置 Tool.set_WTOOL_ANG2(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_LEN1Get">
+            <summary>设置 Tool.get_WTOOL_LEN1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_LEN1SetString">
+            <summary>设置 Tool.set_WTOOL_LEN1(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_LEN2Get">
+            <summary>设置 Tool.get_WTOOL_LEN2() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_LEN2SetString">
+            <summary>设置 Tool.set_WTOOL_LEN2(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_LEN3Get">
+            <summary>设置 Tool.get_WTOOL_LEN3() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_LEN3SetString">
+            <summary>设置 Tool.set_WTOOL_LEN3(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_LEN4Get">
+            <summary>设置 Tool.get_WTOOL_LEN4() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_LEN4SetString">
+            <summary>设置 Tool.set_WTOOL_LEN4(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_LEN5Get">
+            <summary>设置 Tool.get_WTOOL_LEN5() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_LEN5SetString">
+            <summary>设置 Tool.set_WTOOL_LEN5(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_RAD1Get">
+            <summary>设置 Tool.get_WTOOL_RAD1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_RAD1SetString">
+            <summary>设置 Tool.set_WTOOL_RAD1(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_RAD2Get">
+            <summary>设置 Tool.get_WTOOL_RAD2() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.WTOOL_RAD2SetString">
+            <summary>设置 Tool.set_WTOOL_RAD2(String value) 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Fakes.ShimTool.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.EXTOOL_F_LIMITGet">
+            <summary>设置 Tool.get_EXTOOL_F_LIMIT() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.EXTOOL_F_LIMITSetString">
+            <summary>设置 Tool.set_EXTOOL_F_LIMIT(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.EXTOOL_LARGE_LEFTGet">
+            <summary>设置 Tool.get_EXTOOL_LARGE_LEFT() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.EXTOOL_LARGE_LEFTSetString">
+            <summary>设置 Tool.set_EXTOOL_LARGE_LEFT(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.EXTOOL_LARGE_RIGHTGet">
+            <summary>设置 Tool.get_EXTOOL_LARGE_RIGHT() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.EXTOOL_LARGE_RIGHTSetString">
+            <summary>设置 Tool.set_EXTOOL_LARGE_RIGHT(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.EXTOOL_S_LIMITGet">
+            <summary>设置 Tool.get_EXTOOL_S_LIMIT() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.EXTOOL_S_LIMITSetString">
+            <summary>设置 Tool.set_EXTOOL_S_LIMIT(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_ANG1Get">
+            <summary>设置 Tool.get_GTOOL_ANG1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_ANG1SetString">
+            <summary>设置 Tool.set_GTOOL_ANG1(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_ANG2Get">
+            <summary>设置 Tool.get_GTOOL_ANG2() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_ANG2SetString">
+            <summary>设置 Tool.set_GTOOL_ANG2(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_DIRGet">
+            <summary>设置 Tool.get_GTOOL_DIR() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_DIRSetString">
+            <summary>设置 Tool.set_GTOOL_DIR(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_LEN1Get">
+            <summary>设置 Tool.get_GTOOL_LEN1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_LEN1SetString">
+            <summary>设置 Tool.set_GTOOL_LEN1(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_LEN2Get">
+            <summary>设置 Tool.get_GTOOL_LEN2() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_LEN2SetString">
+            <summary>设置 Tool.set_GTOOL_LEN2(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_LEN3Get">
+            <summary>设置 Tool.get_GTOOL_LEN3() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_LEN3SetString">
+            <summary>设置 Tool.set_GTOOL_LEN3(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_LEN4Get">
+            <summary>设置 Tool.get_GTOOL_LEN4() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_LEN4SetString">
+            <summary>设置 Tool.set_GTOOL_LEN4(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_LEN5Get">
+            <summary>设置 Tool.get_GTOOL_LEN5() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_LEN5SetString">
+            <summary>设置 Tool.set_GTOOL_LEN5(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_RAD1Get">
+            <summary>设置 Tool.get_GTOOL_RAD1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_RAD1SetString">
+            <summary>设置 Tool.set_GTOOL_RAD1(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_RAD2Get">
+            <summary>设置 Tool.get_GTOOL_RAD2() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.GTOOL_RAD2SetString">
+            <summary>设置 Tool.set_GTOOL_RAD2(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.INFTOOL_CHGet">
+            <summary>设置 Tool.get_INFTOOL_CH() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.INFTOOL_CHSetString">
+            <summary>设置 Tool.set_INFTOOL_CH(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.INFTOOL_G64MODEGet">
+            <summary>设置 Tool.get_INFTOOL_G64MODE() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.INFTOOL_G64MODESetString">
+            <summary>设置 Tool.set_INFTOOL_G64MODE(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.INFTOOL_IDGet">
+            <summary>设置 Tool.get_INFTOOL_ID() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.INFTOOL_IDSetString">
+            <summary>设置 Tool.set_INFTOOL_ID(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.INFTOOL_MAGZGet">
+            <summary>设置 Tool.get_INFTOOL_MAGZ() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.INFTOOL_MAGZSetString">
+            <summary>设置 Tool.set_INFTOOL_MAGZ(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.INFTOOL_STATEGet">
+            <summary>设置 Tool.get_INFTOOL_STATE() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.INFTOOL_STATESetString">
+            <summary>设置 Tool.set_INFTOOL_STATE(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA0Get">
+            <summary>设置 Tool.get_METOOL_PARA0() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA0SetString">
+            <summary>设置 Tool.set_METOOL_PARA0(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA1Get">
+            <summary>设置 Tool.get_METOOL_PARA1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA1SetString">
+            <summary>设置 Tool.set_METOOL_PARA1(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA2Get">
+            <summary>设置 Tool.get_METOOL_PARA2() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA2SetString">
+            <summary>设置 Tool.set_METOOL_PARA2(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA3Get">
+            <summary>设置 Tool.get_METOOL_PARA3() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA3SetString">
+            <summary>设置 Tool.set_METOOL_PARA3(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA4Get">
+            <summary>设置 Tool.get_METOOL_PARA4() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA4SetString">
+            <summary>设置 Tool.set_METOOL_PARA4(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA5Get">
+            <summary>设置 Tool.get_METOOL_PARA5() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA5SetString">
+            <summary>设置 Tool.set_METOOL_PARA5(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA6Get">
+            <summary>设置 Tool.get_METOOL_PARA6() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA6SetString">
+            <summary>设置 Tool.set_METOOL_PARA6(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA7Get">
+            <summary>设置 Tool.get_METOOL_PARA7() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA7SetString">
+            <summary>设置 Tool.set_METOOL_PARA7(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA8Get">
+            <summary>设置 Tool.get_METOOL_PARA8() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA8SetString">
+            <summary>设置 Tool.set_METOOL_PARA8(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA9Get">
+            <summary>设置 Tool.get_METOOL_PARA9() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.METOOL_PARA9SetString">
+            <summary>设置 Tool.set_METOOL_PARA9(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_ACT_COUNTGet">
+            <summary>设置 Tool.get_MOTOOL_ACT_COUNT() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_ACT_COUNTSetString">
+            <summary>设置 Tool.set_MOTOOL_ACT_COUNT(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_ACT_LIFEGet">
+            <summary>设置 Tool.get_MOTOOL_ACT_LIFE() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_ACT_LIFESetString">
+            <summary>设置 Tool.set_MOTOOL_ACT_LIFE(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_ALM_COUNTGet">
+            <summary>设置 Tool.get_MOTOOL_ALM_COUNT() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_ALM_COUNTSetString">
+            <summary>设置 Tool.set_MOTOOL_ALM_COUNT(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_ALM_LIFEGet">
+            <summary>设置 Tool.get_MOTOOL_ALM_LIFE() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_ALM_LIFESetString">
+            <summary>设置 Tool.set_MOTOOL_ALM_LIFE(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_GROUPGet">
+            <summary>设置 Tool.get_MOTOOL_GROUP() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_GROUPSetString">
+            <summary>设置 Tool.set_MOTOOL_GROUP(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_MAX_COUNTGet">
+            <summary>设置 Tool.get_MOTOOL_MAX_COUNT() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_MAX_COUNTSetString">
+            <summary>设置 Tool.set_MOTOOL_MAX_COUNT(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_MAX_LIFEGet">
+            <summary>设置 Tool.get_MOTOOL_MAX_LIFE() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_MAX_LIFESetString">
+            <summary>设置 Tool.set_MOTOOL_MAX_LIFE(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_MULTIGet">
+            <summary>设置 Tool.get_MOTOOL_MULTI() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_MULTISetString">
+            <summary>设置 Tool.set_MOTOOL_MULTI(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_SEQUGet">
+            <summary>设置 Tool.get_MOTOOL_SEQU() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_SEQUSetString">
+            <summary>设置 Tool.set_MOTOOL_SEQU(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_TYPEGet">
+            <summary>设置 Tool.get_MOTOOL_TYPE() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.MOTOOL_TYPESetString">
+            <summary>设置 Tool.set_MOTOOL_TYPE(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA0Get">
+            <summary>设置 Tool.get_TETOOL_PARA0() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA0SetString">
+            <summary>设置 Tool.set_TETOOL_PARA0(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA1Get">
+            <summary>设置 Tool.get_TETOOL_PARA1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA1SetString">
+            <summary>设置 Tool.set_TETOOL_PARA1(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA2Get">
+            <summary>设置 Tool.get_TETOOL_PARA2() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA2SetString">
+            <summary>设置 Tool.set_TETOOL_PARA2(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA3Get">
+            <summary>设置 Tool.get_TETOOL_PARA3() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA3SetString">
+            <summary>设置 Tool.set_TETOOL_PARA3(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA4Get">
+            <summary>设置 Tool.get_TETOOL_PARA4() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA4SetString">
+            <summary>设置 Tool.set_TETOOL_PARA4(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA5Get">
+            <summary>设置 Tool.get_TETOOL_PARA5() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA5SetString">
+            <summary>设置 Tool.set_TETOOL_PARA5(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA6Get">
+            <summary>设置 Tool.get_TETOOL_PARA6() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA6SetString">
+            <summary>设置 Tool.set_TETOOL_PARA6(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA7Get">
+            <summary>设置 Tool.get_TETOOL_PARA7() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA7SetString">
+            <summary>设置 Tool.set_TETOOL_PARA7(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA8Get">
+            <summary>设置 Tool.get_TETOOL_PARA8() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA8SetString">
+            <summary>设置 Tool.set_TETOOL_PARA8(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA9Get">
+            <summary>设置 Tool.get_TETOOL_PARA9() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TETOOL_PARA9SetString">
+            <summary>设置 Tool.set_TETOOL_PARA9(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TOOL_TYPEGet">
+            <summary>设置 Tool.get_TOOL_TYPE() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.TOOL_TYPESetString">
+            <summary>设置 Tool.set_TOOL_TYPE(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.ToString01">
+            <summary>设置 Tool.ToString() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_ANG1Get">
+            <summary>设置 Tool.get_WTOOL_ANG1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_ANG1SetString">
+            <summary>设置 Tool.set_WTOOL_ANG1(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_ANG2Get">
+            <summary>设置 Tool.get_WTOOL_ANG2() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_ANG2SetString">
+            <summary>设置 Tool.set_WTOOL_ANG2(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_LEN1Get">
+            <summary>设置 Tool.get_WTOOL_LEN1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_LEN1SetString">
+            <summary>设置 Tool.set_WTOOL_LEN1(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_LEN2Get">
+            <summary>设置 Tool.get_WTOOL_LEN2() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_LEN2SetString">
+            <summary>设置 Tool.set_WTOOL_LEN2(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_LEN3Get">
+            <summary>设置 Tool.get_WTOOL_LEN3() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_LEN3SetString">
+            <summary>设置 Tool.set_WTOOL_LEN3(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_LEN4Get">
+            <summary>设置 Tool.get_WTOOL_LEN4() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_LEN4SetString">
+            <summary>设置 Tool.set_WTOOL_LEN4(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_LEN5Get">
+            <summary>设置 Tool.get_WTOOL_LEN5() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_LEN5SetString">
+            <summary>设置 Tool.set_WTOOL_LEN5(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_RAD1Get">
+            <summary>设置 Tool.get_WTOOL_RAD1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_RAD1SetString">
+            <summary>设置 Tool.set_WTOOL_RAD1(String value) 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_RAD2Get">
+            <summary>设置 Tool.get_WTOOL_RAD2() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimTool.AllInstances.WTOOL_RAD2SetString">
+            <summary>设置 Tool.set_WTOOL_RAD2(String value) 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Fakes.ShimVariables`1">
+            <summary>HNCAPI.Variables`1 的填充码类型</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.ShimVariables`1.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.ShimVariables`1.#ctor(HNCAPI.Variables{`0})">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.ShimVariables`1.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.ShimVariables`1.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimVariables`1.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimVariables`1.Constructor">
+            <summary>设置 Variables`1.Variables`1() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimVariables`1.ToString">
+            <summary>设置 Variables`1.ToString() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimVariables`1.ValueGet">
+            <summary>设置 Variables`1.get_Value() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimVariables`1.ValueSetT0">
+            <summary>设置 Variables`1.set_Value(!0 value) 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Fakes.ShimVariables`1.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimVariables`1.AllInstances.ToString01">
+            <summary>设置 Variables`1.ToString() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimVariables`1.AllInstances.ValueGet">
+            <summary>设置 Variables`1.get_Value() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimVariables`1.AllInstances.ValueSetT0">
+            <summary>设置 Variables`1.set_Value(!0 value) 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Fakes.ShimVariablesDef">
+            <summary>HNCAPI.VariablesDef 的填充码类型</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.ShimVariablesDef.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.ShimVariablesDef.#ctor(HNCAPI.VariablesDef)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.ShimVariablesDef.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.ShimVariablesDef.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimVariablesDef.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimVariablesDef.Constructor">
+            <summary>设置 VariablesDef.VariablesDef() 的 填充码</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.ShimVariablesDef.StaticConstructor">
+            <summary>设置 VariablesDef.VariablesDef() 的 填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Fakes.ShimVariablesDef.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:HNCAPI.Fakes.StubTool">
+            <summary>HNCAPI.Tool 的存根类型</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.StubTool.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.StubTool.InitializeStub">
+            <summary>初始化 type StubTool 的新实例</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.StubTool.ToString">
+            <summary>设置 Tool.ToString() 的 存根</summary>
+        </member>
+        <member name="F:HNCAPI.Fakes.StubTool.ToString01">
+            <summary>设置 Tool.ToString() 的 stub</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.StubTool.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.StubTool.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.StubTool.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:HNCAPI.Fakes.StubVariables`1">
+            <summary>HNCAPI.Variables`1 的存根类型</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.StubVariables`1.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.StubVariables`1.InitializeStub">
+            <summary>初始化 type StubVariables 的新实例</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.StubVariables`1.ToString">
+            <summary>设置 Variables`1.ToString() 的 存根</summary>
+        </member>
+        <member name="F:HNCAPI.Fakes.StubVariables`1.ToString01">
+            <summary>设置 Variables`1.ToString() 的 stub</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.StubVariables`1.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.StubVariables`1.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.StubVariables`1.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:HNCAPI.Fakes.StubVariablesDef">
+            <summary>HNCAPI.VariablesDef 的存根类型</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.StubVariablesDef.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:HNCAPI.Fakes.StubVariablesDef.InitializeStub">
+            <summary>初始化 type StubVariablesDef 的新实例</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.StubVariablesDef.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.StubVariablesDef.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:HNCAPI.Fakes.StubVariablesDef.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+    </members>
+</doc>

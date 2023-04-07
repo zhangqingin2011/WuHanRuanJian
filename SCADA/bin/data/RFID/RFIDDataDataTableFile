@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--DataTable: -->
+<DataTable TableName="" CountOfRows="0" CountOfColumns="13">
+  <ClomunName Column0="序号" Column1="产品系列号" Column2="待加工工序" Column3="已加工工序" Column4="工序01加工信息" Column5="工序02加工信息" Column6="工序03加工信息" Column7="工序04加工信息" Column8="工序05加工信息" Column9="工序06加工信息" Column10="工序07加工信息" Column11="工序08加工信息" Column12="工序09加工信息" />
+</DataTable>

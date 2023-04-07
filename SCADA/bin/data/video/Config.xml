@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+<appsetting>
+    <!--加工单元1的网络录像机的IP-->
+    <add key="NVR1" value="192.168.8.178" />
+    <!--加工单元2的网络录像机的IP-->
+    <add key="NVR2" value="192.168.8.158" />
+    <!--拓展单元1的网络录像机的IP-->
+    <add key="NVR3" value="192.168.8.47" />
+    <!--拓展单元2的网络录像机的IP-->
+    <add key="NVR4" value="192.168.8.57" />	
+	<!--网络录像机的通讯端口-->
+	<add key="PORT" value="8000" />
+	<!-- 登录用户名，密码hnc8123456-->
+    <add key="User" value="admin" />
+</appsetting>
+</Root>

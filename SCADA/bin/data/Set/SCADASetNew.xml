@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <linetype linetype="内蒙古工业智能制造产线" />
+  <LocalIpAddr CNCLocalIp="10.10.31.9" />
+  <User SUM="3" name="User" password="" Juridiction="">
+    <Item0 serial="0" name="管理员" password="123456" Juridiction="0" />
+    <Item1 serial="1" name="张三" password="111111" Juridiction="" />
+    <Item2 serial="2" name="李四" password="111111" Juridiction="" />
+  </User>
+  <CNC SUM="4" id="0001" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HNC_818A" ip="192.168.1.99" port="10001" SN="0" EQUIP_CODE="0" remark="">
+    <Item0 serial="0" id="0001" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HNC_818A" ip="192.168.8.15" port="10001" SN="274F1B97AFF3777" EQUIP_CODE="E001" remark="加工单元1车床" />
+    <Item1 serial="1" id="0002" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HNC_818B" ip="192.168.8.16" port="10001" SN="307F14996FF37B0" EQUIP_CODE="E002" remark="加工单元1加工中心" />
+    <Item2 serial="2" id="0003" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HNC_818A" ip="192.168.8.25" port="10001" SN="26BF1B97BFF3770" EQUIP_CODE="E003" remark="加工单元2车床" />
+    <Item3 serial="3" id="0004" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HNC_818B" ip="192.168.8.26" port="10001" SN="34DF14991FF377E" EQUIP_CODE="E004" remark="加工单元2加工中心" />
+    <Item2 serial="4" id="0003" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HNC_818A" ip="192.168.8.35" port="10001" SN="26BF1B97BFF3770" EQUIP_CODE="E003" remark="加工单元2车床" />
+    <Item3 serial="5" id="0004" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HNC_818B" ip="192.168.8.36" port="10001" SN="34DF14991FF377E" EQUIP_CODE="E004" remark="加工单元2加工中心" />
+    <Item2 serial="6" id="0003" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HNC_818A" ip="192.168.8.45" port="10001" SN="26BF1B97BFF3770" EQUIP_CODE="E003" remark="加工单元2车床" />
+    <Item3 serial="7" id="0004" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HNC_818B" ip="192.168.8.46" port="10001" SN="34DF14991FF377E" EQUIP_CODE="E004" remark="加工单元2加工中心" />
+  </CNC>
+  <ROBOT SUM="1" id="0001" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HNC8A" ip="192.168.1.98" port="10001" SN="0" EQUIP_CODE="0" remark="">
+    <Item0 serial="0" id="0001" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HNC8B" ip="192.168.1.98" port="10001" SN="0" EQUIP_CODE="0" remark="">
+      <X SUM="1" address="0" name="急停" appear="否" EQUIP_CODE="null" ACTION_ID="null" remark="null">
+        <Item0 serial="0" address="0" name="急停" appear="否" EQUIP_CODE="null" ACTION_ID="null" remark="null" />
+      </X>
+      <Y SUM="1" address="0" name="急停" appear="否" EQUIP_CODE="null" ACTION_ID="null" remark="null">
+        <Item0 serial="0" address="0" name="急停" appear="否" EQUIP_CODE="null" ACTION_ID="null" remark="null" />
+      </Y>
+    </Item0>
+  </ROBOT>
+  <PLC SUM="2" id="0001" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HNC8" ip="192.168.1.97" port="10001" SN="0" EQUIP_CODE="0" remark="2">
+    <Item0 serial="0" id="0" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HMC" ip="192.168.8.10" port="502" SN="0" EQUIP_CODE="PLC1" remark="单元一PLC" />
+    <Item1 serial="1" id="1" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HMC" ip="192.168.8.20" port="502" SN="0" EQUIP_CODE="PLC2" remark="单元二PLC" />
+    <Item1 serial="2" id="2" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HMC" ip="192.168.8.30" port="502" SN="0" EQUIP_CODE="PLC4" remark="单元三PLC" />
+    <Item1 serial="3" id="3" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HMC" ip="192.168.8.40" port="502" SN="0" EQUIP_CODE="PLC5" remark="单元四PLC" />
+    <Item1 serial="4" id="4" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HMC" ip="192.168.8.50" port="502" SN="0" EQUIP_CODE="PLC6" remark="总控PLC" />
+    <Item1 serial="5" id="5" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="B" system="SIEMENS" ip="127.0.0.1" port="502" SN="0" EQUIP_CODE="PLC6" remark="料仓PLC" />
+  </PLC>
+  <RFID SUM="1" id="1" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.1.10" port="10001" remark="">
+    <Item0 serial="0" id="0" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.80" port="3001" remark="单元一左RFID" />
+    <Item1 serial="1" id="1" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.81" port="3001" remark="单元一右RFID" />
+    <Item2 serial="2" id="2" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.82" port="3001" remark="单元二左RFID" />
+    <Item3 serial="3" id="3" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.83" port="3001" remark="单元二右RFID" />
+    <Item4 serial="4" id="4" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.84" port="3001" remark="单元三左RFID" />
+    <Item5 serial="5" id="5" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.85" port="3001" remark="单元三右RFID" />
+    <Item6 serial="6" id="6" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.86" port="3001" remark="单元四左RFID" />
+    <Item7 serial="7" id="7" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.87" port="3001" remark="单元四右RFID" />
+    <Item8 serial="8" id="8" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.88" port="3001" remark="清洗左RFID" />
+    <Item9 serial="9" id="9" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.89" port="3001" remark="清洗右RFID" />
+    <Item10 serial="10" id="10" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.90" port="3001" remark="检测一左RFID" />
+    <Item11 serial="11" id="11" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.91" port="3001" remark="检测一右RFID" />
+    <Item12 serial="12" id="12" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.92" port="3001" remark="检测二左RFID" />
+    <Item13 serial="13" id="13" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.93" port="3001" remark="检测二右RFID" />
+    <Item14 serial="14" id="14" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.94" port="3001" remark="装配一左RFID" />
+    <Item15 serial="15" id="15" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.95" port="3001" remark="装配一右RFID" />
+    <Item16 serial="16" id="16" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.96" port="3001" remark="装配二左RFID" />
+    <Item17 serial="17" id="17" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.97" port="3001" remark="装配二右RFID" />
+    <Item18 serial="18" id="18" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.98" port="3001" remark="手动入库RFID" />
+    <Item19 serial="19" id="19" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.99" port="3001" remark="手动出库RFID" />
+    <Item20 serial="20" id="20" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" PLCserial="0" jitaihao="0" ReadDevice="D" ReadAddressStar="0" ReadAddressSet="8,8,6,2,6,2,6,2,16" WriteDevice="D" WriteAddressStar="0" WriteAddressSet="8,8,6,2,6,2,6,2,16" MonitorBit="M,0" ip="192.168.8.100" port="3001" remark="自动出入库RFID" />
+  </RFID>
+  <PLCAlarmTb SUM="2" AlarmNo="0" Tex="">
+    <Item0 serial="0" AlarmNo="0" Tex="正常" />
+    <Item1 serial="1" AlarmNo="1" Tex="故障" />
+  </PLCAlarmTb>
+  <CheckEq SUM="1" id="1" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HNC8" ref="1.000" max="0.02" min="-0.01" remark="">
+    <Item0 serial="0" id="1" workshop="武汉软件智能制造车间" productionline="武汉软件智能制造产线" type="A" system="HNC8" ref="1.000" max="0.02" min="-0.01" remark="" />
+  </CheckEq>
+</Root>

@@ -1,0 +1,984 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Softimite Language="简体中文">
+  <Form>
+    <!--MainForm窗口-->
+    <Name>MainForm</Name>
+    <Controls>
+     <Control name="MainForm" text="华中数控总控系统"/>
+     <Control name="tabPageHome" text=" 首页 "/>
+     <Control name="tabPageCNC" text=" 机床 "/>
+     <Control name="tabPageOrder" text=" 订单 "/>
+     <Control name="tabPageRobot" text="机器人"/>
+     <Control name="tabPageTask" text="加工程序"/>
+     <Control name="tabPageRack" text="数字料仓"/>
+     <Control name="tabPageMeasure" text="测量"/>
+     <Control name="tabPagemeter" text="测量"/>
+     <Control name="tabPageTool" text="刀具管理"/>
+     <Control name="tabPageVideo" text="监视"/>
+     <Control name="tabPageSet" text=" 设置  "/>
+     <Control name="tabPageCheck" text=" 报警 "/>
+     <Control name="tabPageTest" text=" 测试 "/>
+     <Control name="tabPageLog" text=" 日志  "/>
+     <Control name="tabPageBOM" text=" 工艺设计 "/>
+     <Control name="tabPageschedule" text=" 排程管理 "/>
+
+     <Control name="groupBox4" text="产线名称 "/>
+     <Control name="groupBox2" text="设备状态 "/>
+     <Control name="groupBox1" text="当前任务个数 "/>
+     <Control name="groupBox5" text="当前产量 "/>    
+     <Control name="groupBox3" text="历史产量"/>  
+     <Control name="groupBox6" text="云数据连接状态 "/>  
+	 <Control name="groupBox7" text="质检信息"/>
+     <Control name="label_ROBOTyunxingNum" text="机床设备状态"/>  
+	 <Control name="label_CNCRuning" text="运行数量："/> 
+	 <Control name="label_CNCkongxian" text="空闲数量："/> 
+	 <Control name="label_CNCbaojing" text="报警数量："/> 
+	 <Control name="label_CNCLiXian" text="离线数量："/>
+	 <Control name="labelplc" text="PLC："/>
+	 <Control name="labMeasure01" text="合格"/>
+	 <Control name="labMeasure02" text="不合格"/>
+	 <Control name="button1" text="产线启动"/>
+	 <Control name="button2" text="产线停止"/>
+	 <Control name="button3" text="产线复位"/>
+	 <Control name="buttonplcconnect" text="PLC重连"/>
+     <Control name="label2" text="车床:"/>	 
+     <Control name="label4" text="加工中心:"/>	 
+     <Control name="label6" text="机器人:"/>		 
+     <Control name="labelplc" text="PLC:"/>
+     <Control name="labelSQL" text="数据库:"/>
+	 
+
+	 <Control name="currentText.Text" text="当前时间："/>
+	 <Control name="totaltimeText.Text" text="累计运行时间："/>
+	 <Control name="dayText.Text" text="天 "/>
+
+	 <Control name="StripMenuItemFile.Text" text="文件"/>
+	 <Control name="StripMenuItemEdit.Text" text="编辑"/>
+	 <Control name="StripMenuItemCheck.Text" text="查看"/>
+	 <Control name="StripMenuItemParams.Text" text="参数"/>
+	 <Control name="StripMenuItemHelp.Text" text="帮助"/>
+	 <Control name="VersionStripMenuItem.Text" text="版本"/>
+	 <Control name="changeSkin.Text" text="更换皮肤"/>
+	 <Control name="changeLanguage.Text" text="更换语言"/>
+	 <Control name="ChineseStripMenuItem.Text" text="中文"/>
+	 <Control name="EnglishStripMenuItem.Text" text="英文"/>
+	 <Control name="toolStripMenuItem2.Text" text="深蓝"/>
+	 <Control name="toolStripMenuItem3.Text" text="浅蓝"/>
+	 <Control name="toolStripMenuItem4.Text" text="绿色"/>
+	 <Control name="toolStripMenuItem5.Text" text="橙色"/>
+	 <Control name="toolStripMenuItem6.Text" text="深绿"/>
+	 <Control name="toolStripMenuItem7.Text" text="海蓝"/>
+	 <Control name="toolStripMenuItem8.Text" text="海蓝2"/>
+	 <Control name="toolStripMenuItem9.Text" text="浅黄"/>
+	 <Control name="toolStripMenuItem10.Text" text="其他"/>	 
+
+    </Controls>
+  </Form>
+
+  <Form>
+    <!--HomeForm窗口-->
+    <Name>HomeForm</Name>
+    <Controls>
+      <Control name="labelUnconnettext" text="离线："/>
+      <Control name="labelKongXianText" text="空闲： "/>
+     <Control name="labelRuningText" text="运行： "/>
+      <Control name="labelAlarText" text="报警： "/>
+    </Controls>
+  </Form>
+
+  <Form>
+    <!--PlcForm窗口-->
+    <Name>PlcForm</Name>
+    <Controls>
+      <Control name="groupBox2" text="PLC选择"/>
+      <Control name="groupBox4" text="PLC系统 "/>
+      <Control name="label_PLCSystemText" text="PLC系统 "/>
+      <Control name="groupBox3" text="PLC连接状态 "/>
+      <Control name="labelLinckText" text="离线 "/>
+
+      <Control name="tabPage_PLCRegMonitor" text="寄存器监控 "/>
+      <Control name="tabPage_PLCOperation" text="操作"/>
+      <Control name="tabPage_Alarm" text="报警 "/>
+      <Control name="groupBox1" text="寄存器值显示方式"/>
+      <Control name="radioButton_serjinzhi" text="二进制 "/>
+      <Control name="radioButton_shijinzhi" text="十进制 "/>
+      <Control name="radioButton_shliujinzhi" text="十六进制 "/>
+
+      <Control name="CurrentAlarm" text="当前报警"/>
+      <Control name="HistoricalAlarm" text="历史报警"/>
+      <Control name="button_alarmReFlesh" text="刷新"/>
+    </Controls>
+  </Form>
+
+
+  <Form>
+    <!--RobotForm窗口-->
+    <Name>RobotForm</Name>
+    <Controls>
+      <Control name="groupBoxRobotSele" text="机器人选择"/>
+	  <Control name="input_id.HeaderText" text="输入信号地址"/>
+	  <Control name="input_name.HeaderText" text="定义信号"/>
+	  <Control name="input_getPicture.HeaderText" text="信号状态"/>
+	  <Control name="output_id.HeaderText" text="输出信号地址"/>
+	  <Control name="output_name.HeaderText" text="定义信号"/>
+	  <Control name="output_getPicture.HeaderText" text="信号状态"/>
+    </Controls>
+  </Form>
+
+  <Form>
+    <!--OrderForm1窗口-->
+    <Name>OrderForm1</Name>
+    <Controls>
+      <Control name="groupBox1" text="生成订单"/>
+      <Control name="label3" text="订单序号"/>
+      <Control name="labelmagno" text="仓位"/>
+      <Control name="labelFun1" text="工序一"/>
+      <Control name="labelFun2" text="工序二"/>
+      <Control name="label6"  text="生成订单"/>
+      <Control name="buttonmadeorder" text="确定"/>
+      <Control name="groupBox6" text="删除订单"/>
+      <Control name="labelorderno" text="订单序号"/>
+      <Control name="button1" text="确定"/>
+      <Control name="groupBox5" text="撤回订单"/>
+      <Control name="groupBox3" text="状态机床运行"/>
+      <Control name="label1"  text="车床："/>
+      <Control name="label2"  text="加工中心："/>
+      <Control name="button2" text="确定"/>
+      <Control name="groupBox2" text="订单下发"/>
+      <Control name="groupBox4" text="订单跟踪"/>
+      <Control name="comoBoxFun1.Items1" text="无"/>
+      <Control name="comoBoxFun1.Items2" text="车工序"/>
+      <Control name="comoBoxFun1.Items3" text="铣工序"/>
+      <Control name="Column1" text="序号"/>
+      <Control name="Column2" text="仓位"/>
+      <Control name="Column3" text="工序一"/>
+      <Control name="Column4" text="工序二"/>
+      <Control name="Column5" text="工序"/>
+      <Control name="Column6" text="操作"/>
+      <Control name="Column7" text="确定"/>
+      <Control name="Column8" text="置顶"/>
+      <Control name="Column9" text="正在执行"/>
+      <Control name="dataGridViewTextBoxColumn1" text="序号"/>
+      <Control name="dataGridViewTextBoxColumn2" text="仓位"/>
+      <Control name="dataGridViewTextBoxColumn3" text="工序一"/>
+      <Control name="dataGridViewTextBoxColumn4" text="工序二"/>
+      <Control name="dataGridViewTextBoxColumn5" text="状态"/>
+      <Control name="dataGridViewTextBoxColumn6" text="检测结果"/>
+      <Control name="groupBoxordermode" text="加工模式"/>
+      <Control name="buttonaoto" text="自动"/>
+      <Control name="buttonman" text="手动"/>
+      <Control name="labelmode" text="手动模式"/>
+      <Control name="Material_1" text="铝"/>
+      <Control name="Material_2" text="钢"/>
+    </Controls>
+  </Form>
+
+  <Form>
+    <!--TaskDataForm窗口-->
+    <Name>TaskDataForm</Name>
+    <Controls>
+      <Control name="button_AddGCode" text="加载G代码"/>
+      <Control name="button_DeletGCode" text="删除G代码"/>
+      <Control name="button_DowLoadGCode" text="订单派发"/>
+      <Control name="label1" text="加工订单:"/>
+      <Control name="labelmagno" text="料仓编号:"/>
+      <Control name="labeltype" text="加工类型:"/>
+      <Control name="buttondingdanxiada"  text="订单下达"/>
+      <Control name="buttondingdanquxiao" text="撤销订单"/>
+    </Controls>
+  </Form>
+
+<Form>
+    <!--RfidForm窗口-->
+    <Name>RfidForm</Name>
+    <Controls>
+      <Control name="tabPageInit" text="RFID初始化"/>
+      <Control name="label1" text="标签数据:"/>
+      <Control name="tBInitState" text="未初始化"/>
+      <Control name="btnInitMem" text="初始化"/>
+
+      <Control name="tabPageSet" text="参数设置"/>
+      <Control name="label2" text="读写起始块地址:"/>
+      <Control name="label3" text="读写块数量:"/>
+      <Control name="label4" text="读写块大小:"/>
+      <Control name="btnSave" text="设置"/>
+
+      <Control name="tabPageR" text="RFID读数据"/>
+      <Control name="label5" text="标签识别码:"/>
+      <Control name="label6" text="数据:"/>
+      <Control name="btnReadUID" text="读取"/>
+      <Control name="btnReadMem" text="读数据"/>
+
+      <Control name="tabPageW" text="RFID写数据"/>
+      <Control name="label8" text="标签识别码:"/>
+      <Control name="label7" text="写入数据:"/>
+      <Control name="btnWUID" text="读取"/>
+      <Control name="btnWriteMem" text="写数据"/>
+	  <Control name="STR_RARM_IN0" text="序号"/>
+	  <Control name="STR_RARM_IN1" text="RFID标签读写状态"/>
+	  <Control name="RFIDData0001" text="生料"/>
+	  <Control name="RFIDData0002" text="合格"/>
+	  <Control name="RFIDData0003" text="不合格"/>
+	  <Control name="RFIDData0004" text="熟料"/>
+	  <Control name="RFIDData0005" text="未加工"/>
+	  <Control name="ColumnTitle0001" text="索引"/>
+	  <Control name="ColumnTitle0002" text="时间戳"/>
+	  <Control name="ColumnTitle0003" text="标签识别码"/>
+	  <Control name="ColumnTitle0004" text="标签数据"/>
+	  <Control name="ColumnTitle0005" text="读/写"/>
+	  <Control name="ColumnTitle0006" text="工序要求"/>
+	  <Control name="ColumnTitle0007" text="工序1"/>
+	  <Control name="ColumnTitle0008" text="工序2"/>
+	  <Control name="ColumnTitle0009" text="质检信息"/>
+	  <Control name="ColumnTitle0010" text="   "/>
+	  <Control name="StatusMessage0001" text="RFID连接成功！ IP="/>
+	  <Control name="StatusMessage0002" text="读写器连接失败，请确保参数地址和线缆连接正确。"/>
+	  <Control name="StatusMessage0003" text="写多块成功"/>
+	  <Control name="StatusMessage0004" text="写多块失败"/>
+	  <Control name="StatusMessage0005" text="RFID 初始化多块：成功！"/>
+	  <Control name="StatusMessage0006" text="RFID 初始化多块：失败！"/>
+	  <Control name="StatusMessage0007" text="读标签多块：成功！"/>
+	  <Control name="StatusMessage0008" text="读标签多块：失败！"/>
+	  <Control name="StatusMessage0009" text="RFID连接失败！"/>
+	  <Control name="StatusMessage0010" text="读标签UID：成功！"/>
+	  <Control name="StatusMessage0011" text="读标签UID：失败！"/>
+	  <Control name="StatusMessage0012" text="读多块成功"/>
+	  <Control name="btnInitState1" text="初始化成功"/>
+	  <Control name="btnInitState2" text="初始化失败"/>
+	  <Control name="Messagebox0001" text="RFID历史数据的xml文件不存在"/>
+	  <Control name="Messagebox0002" text="请输入整数！"/>
+	  
+    </Controls>
+  </Form>
+
+  <Form>
+    <!--MeasureForm窗口-->
+    <Name>MeasureForm</Name>
+    <Controls>
+      <Control name="groupBox1" text="工艺优化"/>
+      <Control name="label1" text="数据采集状态:"/>
+      <Control name="tBAgentState" text="未开启"/>
+      <Control name="btnStartAgent" text="开启"/>
+      <Control name="groupBox2" text="测量"/>
+      <Control name="label2" text="测量状态:"/>
+      <Control name="label3" text="测量深度:"/>
+      <Control name="label4" text="   参考值:"/>
+      <Control name="label5" text="          补偿值:"/>
+	  <Control name="label6" text="       公差范围:"/>
+      <Control name="tBMeasureState" text="连接正常"/>
+      <Control name="btnStartMeasure" text="开始测量"/>
+      <Control name="btnCompent" text="设置补偿"/>
+	  <Control name="label13" text="补偿刀号:"/>
+    </Controls>
+  </Form>
+
+  <Form>
+    <!--LineCCDForm窗口-->
+    <Name>LineCCDForm</Name>
+    <Controls>
+      <Control name="tabPageCCDPara" text="CCD通讯参数"/>
+      <Control name="labCCDIP" text="IP地址"/>
+      <Control name="labPORT" text="端口号"/>
+      <Control name="btnCCDConnect" text="连接"/>
+
+      <Control name="tabPageCCDPhoto" text="拍照指令"/>
+      <Control name="label1" text="发送指令"/>
+      <Control name="label2" text="接收数据"/>
+      <Control name="btnCCDSend" text="发送"/>
+    </Controls>
+  </Form>
+
+  <Form>
+    <!--CncForm窗口-->
+    <Name>CncForm</Name>
+    <Controls>
+      <Control name="groupBox4"  text="连接状态"/>
+      <Control name="groupBox10" text="机台选择 "/>
+     <Control name="groupBox6"  text="机台IP地址 "/>
+      <Control name="groupBox8" text="机台端口 "/>
+      <Control name="groupBox9"  text="机台加工工序"/>
+      <Control name="groupBox3" text="加工个数"/>
+     <Control name="groupBox2"  text="当前程序 "/>
+      <Control name="groupBox7" text="系统版本 "/>
+
+     <Control name="tabPageState" text="状态 "/>
+     <Control name="tabPageRun" text="运行 "/>
+     <Control name="tabPageCutter" text="刀补 "/>
+     <Control name="tabPageParam" text="参数 "/>
+     <Control name="tabPageAlarm" text="报警 "/>
+
+    <Control name="label1"  text="实际位置"/>
+    <Control name="label2" text="工件指令 "/>
+    <Control name="label3"  text="负载电流"/>
+    <Control name="label19" text="当前程序 "/>
+
+    <Control name="btnAuto"  text="⁯自动"/>
+    <Control name="btnSingleSegmentCNC"  text="⁯单段"/>
+    <Control name="btnManualCNC"  text="⁯手动"/>
+    <Control name="btnRunIncrementCNC"  text="⁯增量"/>
+    <Control name="btnReZeroCNC"  text="回参考点"/>
+    <Control name="btnGCSkipCNC"  text="⁯程序跳段"/>
+    <Control name="btnkongrunCNC"  text="⁯空运行"/>
+    <Control name="btnxuanzhetingCNC"  text="选择停"/>
+    <Control name="btnZsuoCNC"  text="⁯Z轴锁住"/>
+    <Control name="btnjichuangshuoCNC"  text="⁯机床锁住"/>
+    <Control name="btnF1CNC"  text="新F1"/>
+    <Control name="btnF2CNC"  text="新F2"/>
+    <Control name="btnF3CNC"  text="卡盘"/>
+    <Control name="btnkuaijingCNC"  text="快进"/>
+    <Control name="btnzhuzhoudingxiangCNC"  text="主轴定向"/>
+    <Control name="btnshouyaoshiqie"  text="手摇试切"/>
+    <Control name="btnSpindleForwardCNC"  text="主轴正转"/>
+    <Control name="btnSpindleStopCNC"  text="主轴停止"/>
+
+    <Control name="btnzhaomingCNC"  text="机床照明"/>
+    <Control name="btndaosongjingCNC"  text="刀具松紧"/>
+    <Control name="btnToolfanzhuan"  text="刀库反转"/>
+    <Control name="btnhuandaozhuangdaoCNC"  text="换刀/装刀"/>
+    <Control name="btnProtectDoorCNC"  text="防护门"/>
+    <Control name="btnF4CNC"  text="新F4"/>
+    <Control name="btnToolzhengzhuan"  text="刀库正转"/>
+    <Control name="btnToolTest"  text="刀库调试"/>
+    <Control name="btnCoolingCNC"  text="冷却"/>
+    <Control name="button3AxsHome"  text="三轴回零"/>
+    <Control name="btnToolHome"  text="刀库回零"/>
+    <Control name="btnF1"  text="F1"/>
+    <Control name="btnLubricationCNC"  text="润滑"/>
+    <Control name="btnchaochenjiechuCNC"  text="超程解除"/>
+    <Control name="btnChongxue"  text="冲屑"/>
+    <Control name="btnzhuzhoufanzhuangCNC"  text="主轴反转"/>
+    <Control name="btnxhqdCNC"  text="循环启动"/>
+    <Control name="btnFeedHoldRunCNC"  text="进给保持"/>
+    <Control name="btnEStopCNC"  text="急停"/>
+
+    <Control name="groupBox1"  text="表示方式"/>
+    <Control name="radioButtonRegValBit"  text="二进制"/>
+    <Control name="radioButtonRegValDecimal"  text="十进制"/>
+    <Control name="radioButtonRegValHex"  text="十六进制"/>
+
+    <Control name="Column_Reg_index"  text="序号"/>
+    <Control name="Column_RegVal_x"  text="X_寄存器"/>
+    <Control name="Column_RegVal_y"  text="Y_寄存器"/>
+    <Control name="Column_RegVal_f"  text="F_寄存器"/>
+    <Control name="Column_RegVal_g"  text="G_寄存器"/>
+    <Control name="Column_RegVal_r"  text="R_寄存器"/>
+    <Control name="Column_RegVal_b"  text="B_寄存器"/>
+	<Control name="rbtnCurrentAlarmCNC"  text="当前报警"/>
+	<Control name="rbtnHistoricalAlarmCNC"  text="历史报警"/>
+	<Control name="AlarmColumn01"  text="序号"/>
+	<Control name="AlarmColumn02"  text="报警号"/>
+	<Control name="AlarmColumn03"  text="报警内容"/>
+	<Control name="KnifeColumn01"  text="刀号"/>
+	<Control name="KnifeColumn02"  text="长度"/>
+	<Control name="KnifeColumn03"  text="半径"/>
+	<Control name="KnifeColumn04"  text="长度磨损"/>
+	<Control name="KnifeColumn05"  text="半径磨损"/>
+	<Control name="labelLinckText"  text="离线"/>
+	<Control name="NCKVersion"  text="NCK版本："/>
+	<Control name="DRVVersion"  text="DRV版本："/>
+	<Control name="PLCVersion"  text="PLC版本："/>
+	<Control name="CNCVersion"  text="CNC版本："/>
+	<Control name="NCVersion"  text="NC版本："/>
+	
+    <Control name="flabel1"  text="实际位置"/>
+    <Control name="flabel2" text="工件指令"/>
+    <Control name="flabel3"  text="负载电流"/>
+    <Control name="flabel19" text="当前程序"/>
+    <Control name="fbtnAuto"  text="⁯自动"/>
+    <Control name="fbtnSingleSegmentCNC"  text="单段"/>
+    <Control name="fbtnManualCNC"  text="手动"/>
+    <Control name="fbtnRunIncrementCNC"  text="⁯增量"/>
+    <Control name="fbtnReZeroCNC"  text="回参考点"/>
+    <Control name="fbtnGCSkipCNC"  text="⁯程序跳段"/>
+    <Control name="fbtnkongrunCNC"  text="⁯空运行"/>
+    <Control name="fbtnxuanzhetingCNC"  text="选择停"/>
+    <Control name="fbtnZsuoCNC"  text="⁯Z轴锁住"/>
+    <Control name="fbtnjichuangshuoCNC"  text="⁯机床锁住"/>
+    <Control name="fbtnkuaijingCNC"  text="快进"/>
+    <Control name="fbtnzhuzhoudingxiangCNC"  text="主轴定向"/>
+    <Control name="fbtnshouyaoshiqie"  text="手摇试切"/>
+    <Control name="fbtnSpindleForwardCNC"  text="主轴正转"/>
+    <Control name="fbtnSpindleStopCNC"  text="主轴停止"/>
+    <Control name="fbtndaosongjingCNC"  text="刀具松紧"/>
+    <Control name="fbtnProtectDoorCNC"  text="防护门"/>
+    <Control name="fbtnToolzhengzhuan"  text="刀库正转"/>
+    <Control name="fbtnToolTest"  text="刀库调试"/>
+    <Control name="fbtnCoolingCNC"  text="冷却"/>
+    <Control name="fbutton3AxsHome"  text="三轴回零"/>
+    <Control name="fbtnToolHome"  text="刀库回零"/>
+    <Control name="fbtnF1"  text="F1"/>
+    <Control name="fbtnF2"  text="F2 "/>
+    <Control name="fbtnF3"  text="F3"/>
+    <Control name="fbtnF4"  text="F4"/>
+    <Control name="fbtnLubricationCNC"  text="润滑"/>
+    <Control name="fbtnchaochenjiechuCNC"  text="超程解除"/>
+    <Control name="fbtnChongxue"  text="冲屑"/>
+    <Control name="fbtnzhuzhoufanzhuangCNC"  text="主轴反转"/>
+    
+    <Control name="fbtnFeedHoldRunCNC"  text="进给保持"/>
+    <Control name="fbtnEStopCNC"  text="急停"/>
+
+    <Control name="fgroupBox1"  text="ExpressWay"/>
+    <Control name="fradioButtonRegValBit"  text="二进制"/>
+    <Control name="fradioButtonRegValDecimal"  text="十进制"/>
+    <Control name="fradioButtonRegValHex"  text="十六进制"/>	
+    <Control name="fbtnzhuzhoushengdangCNC"  text="主轴升档"/>	
+    <Control name="fbtnzhuzhoujiangdangCNC"  text="主轴降档"/>	
+    <Control name="fbtnzhuzhoudiandongCNC"  text="主轴点动"/>	
+    <Control name="fjingei1"  text="进给1%"/>		
+    <Control name="fjingei10"  text="进给10%"/>	
+    <Control name="fjingei50"  text="进给50%"/>		
+    <Control name="fjingei100"  text="进给100%"/>	
+    <Control name="fbtnkapansongjin"  text="卡盘松紧"/>	
+    <Control name="fbtnweitaisongjin"  text="尾盘松紧"/>	
+    <Control name="fToolchangemanual"  text="手动换刀"/>	
+    <Control name="fbtnyeyaqidong"  text="液压启动"/>  
+    </Controls>
+  </Form>
+
+  <Form>
+    <!--RackForm窗口-->
+    <Name>RackForm</Name>
+    <Controls>
+      <Control name="groupBox5" text="物料仓库仓位操作"/>
+      <Control name="label1" text="无料："/>
+      <Control name="label5" text="待加工："/>
+      <Control name="label6" text="加工中： "/>
+      <Control name="label7" text="加工异常："/>
+      <Control name="label3" text="合格："/>
+      <Control name="label4" text="不合格："/>
+      <Control name="labelno" text="仓位编号："/>
+      <Control name="button1" text="初始化"/>
+      <Control name="groupBox1" text="仓位初始化"/>
+      <Control name="groupBox2" text="五色灯"/>
+      <Control name="button2" text="开启通信"/>
+      <Control name="button3" text="关闭通信"/>
+      <Control name="groupBox3" text="料仓盘点"/>
+      <Control name="button5" text="料仓盘点"/>
+      <Control name="button7" text="整体初始化"/>
+      <Control name="button4" text="HMI写入"/>
+      <Control name="button6" text="MES写入"/>
+    </Controls>
+  </Form>
+
+  <Form>
+    <!--ToolForm窗口-->
+    <Name>ToolForm</Name>
+    <Controls>
+      <Control name="groupBox1" text="机台选择"/>
+      <Control name="cncstate" text="机床通信状态："/>
+      <Control name="Column2" text="刀号"/>
+      <Control name="Column3" text="半径(mm)"/>
+      <Control name="Column4" text="长度(mm)"/>
+      <Control name="Column5" text="半径磨损(mm)"/>
+      <Control name="Column6" text="长度磨损(mm)"/>
+      <Control name="Column7" text="半径磨损修正(mm)"/>
+      <Control name="Column8" text="长度磨损修正(mm)"/>
+      <Control name="button1" text="提交"/>
+      <Control name="groupBox2" text="刀具数据"/>
+    </Controls>
+  </Form>
+
+  <Form>
+    <!--TestForm窗口-->
+    <Name>TestForm</Name>
+    <Controls>
+      <Control name="comboBoxopen.Items01" text="开门"/>
+      <Control name="comboBoxopen.Items02" text="关门"/>
+      <Control name="comboBoxpan.Items01" text="夹紧"/>
+      <Control name="comboBoxpan.Items02" text="松开"/>
+      <Control name="groupBoxcnc1" text="加工中心测试状态"/>
+      <Control name="labelopen1" text="开关门状态："/>
+      <Control name="labelpan1" text="卡盘状态："/>
+      <Control name="label3" text="主轴转速："/>
+      <Control name="groupBox1" text="加工中心"/>
+      <Control name="buttonbegin1" text="开始测试"/>
+      <Control name="groupBox5" text="车床测试状态"/>
+      <Control name="groupBoxcnc2" text="车床测试状态"/>
+      <Control name="labelopen2" text="开关门状态："/>
+      <Control name="labelpan2" text="卡盘状态："/>
+      <Control name="labelspeed2" text="主轴转速："/>
+      <Control name="groupBox2" text="车床"/>
+      <Control name="buttonbegin2" text="开始测试"/>
+      <Control name="tabPagetest1" text="机床测试"/>
+      <Control name="tabPagetest2" text="机械手测试"/>
+      <Control name="tabPagetest3" text="料仓测试"/>
+      <Control name="tabPagetest4" text="手动试切"/>
+      <Control name="label4" text="机械手j6、j7目标位置(度)"/>
+      <Control name="labelj6" text="j6:"/>
+      <Control name="labelj7" text="j7:"/>
+      <Control name="groupBox3" text="机械手"/>
+      <Control name="button2" text="开始测试"/>
+      <Control name="label9" text="无料:"/>
+      <Control name="label8" text="待加工:"/>
+      <Control name="label10" text="加工中:"/>
+      <Control name="label11" text="加工异常:"/>
+      <Control name="label12" text="合格:"/>
+      <Control name="label13" text="不合格:"/>
+      <Control name="button4" text="确定"/>
+      <Control name="button3" text="获取当前检测结果"/>
+      <Control name="Column1" text="序号"/>
+      <Control name="Column2" text="测试内容"/>
+      <Control name="Column3" text="测试结果"/>
+      <Control name="Column1a" text="序号"/>
+      <Control name="Column2a" text="测试内容"/>
+      <Control name="Column3a" text="测试结果"/>
+      <Control name="Column1c" text="序号"/>
+      <Control name="Column2c" text="测试内容"/>
+      <Control name="Column3c" text="测试结果"/>
+      <Control name="Column1b" text="变量编号"/>
+      <Control name="Column2b" text="参考值"/>
+      <Control name="Column3b" text="上偏差"/>
+      <Control name="Column4b" text="下偏差"/>
+      <Control name="Column5b" text="实际值"/>
+      <Control name="Column6b" text="检测结果"/>
+    </Controls>
+  </Form>
+
+
+
+  <Form>
+    <!--MeterForm窗口-->
+    <Name>MeterForm</Name>
+    <Controls>
+      <Control name="groupBox1" text="尺寸设置"/>
+      <Control name="groupBox3" text="测量结果"/>
+      <Control name="groupBox2" text="测量记录"/>
+      <Control name="button1" text="提交"/>
+      <Control name="label1" text="当前测量仓位"/>
+      <Control name="label2" text="测量状态"/>
+      <Control name="Column1" text="变量名"/>
+      <Control name="Column2" text="理论值"/>
+      <Control name="Column3" text="上偏差"/>
+      <Control name="Column4" text="下偏差"/>
+      <Control name="Columna1" text="变量名"/>
+      <Control name="Columna2" text="理论值"/>
+      <Control name="Columna3" text="上偏差"/>
+      <Control name="Columna4" text="下偏差"/>
+      <Control name="Columna5" text="实际值"/>
+      <Control name="Columna6" text="差值"/>
+      <Control name="Columna7" text="检测结果"/>
+      <Control name="Columnb1" text="序号"/>
+      <Control name="Columnb2" text="仓位"/>
+      <Control name="Columnb3" text="结果"/>
+      <Control name="Columnb4" text="时间"/>
+      <Control name="Columnb5" text="参考值1"/>
+      <Control name="Columnb6" text="测量值1"/>
+      <Control name="Columnb7" text="参考值2"/>
+      <Control name="Columnb8" text="测量值2"/>
+      <Control name="Columnb9" text="参考值3"/>
+      <Control name="Columnb10" text="测量值3"/>
+      <Control name="Columnb11" text="参考值4"/>
+      <Control name="Columnb12" text="测量值4"/>
+      <Control name="Columnb13" text="参考值5"/>
+      <Control name="Columnb14" text="测量值5"/>
+      <Control name="Columnb15" text="参考值6"/>
+      <Control name="Columnb16" text="测量值6"/>
+      <Control name="Columnb16" text="测量值6"/>
+      <Control name="buttonreprocess" text="返修"/>
+      <Control name="buttontorack" text="取料"/>
+    </Controls>
+  </Form>
+
+  <Form>
+    <!--SetForm窗口-->
+    <Name>SetForm</Name>
+    <Controls>
+      <Control name="tabPageConfigure" text="产线设备配置"/>
+      <Control name="labNumberSet" text="序号"/>
+      <Control name="labEquipmentSet" text="设备"/>
+      <Control name="labNumSet" text="数量"/>
+      <Control name="groupBox1" text="机床系统选择"/>
+      <Control name="groupBox2" text="机器人选择"/>
+      <Control name="labWS" text="车间"/>
+      <Control name="labPL" text="产线"/>
+      <Control name="groupBox3" text="产线类型"/>
+      <Control name="groupBox_LocalIpAddr" text="本地IP选择"/>
+      <Control name="setTest" text="保存"/>
+
+      <Control name="tabPageCNCSet" text="机床设置"/>
+
+      <Control name="tabPageRobotSet" text="机器人设置"/>
+      <Control name="label_ROBOTNum" text="机器人数量："/>
+      <Control name="label_SeleRobotIntS" text="序号为0的机器人的输入信号数量："/>
+      <Control name="label_SeleRobotOutS" text="序号为0的机器人的输出信号数量："/>
+      <Control name="btnSaveROBOT" text="保存"/>
+
+     <Control name="tabPagePLCSet" text="PLC设置 "/>
+     <Control name="LablPLCXuHao1" text="PLC序号：0   "/>
+     <Control name="label7" text="系统： "/>
+     <Control name="label2" text="测量数量： "/>
+     <Control name="btnSavePLC" text="保存 "/>
+     <Control name="label4" text="PLC数量： "/>
+     <Control name="label6" text="数量： "/>
+
+      <Control name="tabPageRFIDSet" text="RFID设置"/>
+     <Control name="label_RFidDgvRoesNum" text="RFID数量： "/>
+     <Control name="btnSaveRFID" text="保存"/>
+
+      <Control name="tabPageTestSetup" text="检测设备设置"/>
+     <Control name="label8" text="三坐标数量： "/>
+     <Control name="btnSaveCheckEqment" text="保存"/>
+
+     <Control name="tabPagePLCAlarmTb" text="PLC自定义报警对照表"/>
+     <Control name="label4" text="数量： "/>
+     <Control name="button_savePLCAlarmTb" text="保存"/>
+
+      <Control name="tabPageUserManager" text="用户管理"/>
+      <Control name="groupBox6" text="用户操作"/>
+      <Control name="label1" text="当前用户："/>
+      <Control name="label_CurrentUsername" text="操作者"/>
+      <Control name="label_UserName" text="用户名："/>
+      <Control name="label_UserPasswor1" text="密码："/>
+      <Control name="label_UserPasswor2" text="确认密码："/>
+      <Control name="label_Tisp" text="提示"/>
+      <Control name="button_UserOnOrOff" text="登陆"/>
+      <Control name="button_ChangeUserPassword" text="修改密码"/>
+
+
+      <Control name="groupBox_UserManerge" text="用户管理"/>
+      <Control name="radioButton_AddUser" text="添加用户"/>
+      <Control name="radioButton_DeleUser" text="删除用户"/>
+      <Control name="label10" text="用户名："/>
+      <Control name="label_ChangeUserPasswor1" text="密码："/>
+      <Control name="label_ChangeUserPasswor2" text="确认密码："/>
+      <Control name="label_ChangeUserTips" text="提示"/>
+      <Control name="button_EditUserOK" text="添加"/>
+	  <Control name="label3" text="CNC数量："/>
+	  <Control name="tabPage2" text="PLC设置"/>
+	  <Control name="tabPage1" text="测量设置"/>
+
+	<Control name="PLCSetColumm00" text="序号"/> 
+	<Control name="PLCSetColumm01" text="ID"/> 
+	<Control name="PLCSetColumm02" text="所属车间"/> 
+	<Control name="PLCSetColumm03" text="所属产线"/> 
+	<Control name="PLCSetColumm04" text="类型"/> 
+	<Control name="PLCSetColumm05" text="系统"/> 
+	<Control name="PLCSetColumm06" text="IP"/> 
+	<Control name="PLCSetColumm07" text="端口"/>
+	<Control name="PLCSetColumm08" text="SN号"/>
+	<Control name="PLCSetColumm09" text="编号"/>
+	<Control name="PLCSetColumm10" text="备注"/>
+	<Control name="CNCSetColumn001" text="序号"/>
+	<Control name="CNCSetColumn002" text="机床ID"/>
+	<Control name="CNCSetColumn003" text="所属车间"/>
+	<Control name="CNCSetColumn004" text="所属产线"/>
+	<Control name="CNCSetColumn005" text="类型"/>
+	<Control name="CNCSetColumn006" text="数控系统"/>
+	<Control name="CNCSetColumn007" text="机床IP地址"/>
+	<Control name="CNCSetColumn008" text="机床IP端口"/>
+	<Control name="CNCSetColumn009" text="SN号"/>
+	<Control name="CNCSetColumn010" text="机台编号"/>
+	<Control name="CNCSetColumn011" text="备注"/>
+	<Control name="RobotSetColumn0001" text="序号"/>
+	<Control name="RobotSetColumn0002" text="机器人ID"/>
+	<Control name="RobotSetColumn0003" text="所属车间"/>
+	<Control name="RobotSetColumn0004" text="所属产线"/>
+	<Control name="RobotSetColumn0005" text="类型"/>
+	<Control name="RobotSetColumn0006" text="系统型号"/>
+	<Control name="RobotSetColumn0007" text="SN号"/>
+	<Control name="RobotSetColumn0008" text="设备ID"/>
+	<Control name="RobotSetColumn0009" text="备注"/>
+	<Control name="btnSaveCNC" text="保存"/>
+	<Control name="btnSaveMeasure" text="保存"/>
+	<Control name="comoBoxLineType.Items01" text="一拖二"/>  
+	<Control name="comoBoxLineType.Items02" text="VGA 小车"/> 
+	<Control name="comoBoxLineType.Items03" text="智能产线"/> 
+        <Control name="RFIDSetColumn01" text="序号"/>
+	<Control name="RFIDSetColumn02" text="ID"/>
+	<Control name="RFIDSetColumn03" text="所属车间"/>
+	<Control name="RFIDSetColumn04" text="所属产线"/>
+	<Control name="RFIDSetColumn05" text="PLC序号"/>
+	<Control name="RFIDSetColumn06" text="机台号"/>
+	<Control name="RFIDSetColumn07" text="读地址类型"/>
+	<Control name="RFIDSetColumn08" text="读起始地址"/>
+	<Control name="RFIDSetColumn09" text="读地址格式"/>
+	<Control name="RFIDSetColumn10" text="写地址格式"/>
+	<Control name="RFIDSetColumn11" text="写起始地址"/>
+	<Control name="RFIDSetColumn12" text="写地址格式"/>
+	<Control name="RFIDSetColumn13" text="监控位"/>
+	<Control name="RFIDSetColumn14" text="IP"/>
+	<Control name="RFIDSetColumn15" text="端口"/>
+	<Control name="RFIDSetColumn16" text="备注"/>
+	<Control name="MeasureColumn01" text="序号"/>
+	<Control name="MeasureColumn02" text="ID"/>
+	<Control name="MeasureColumn03" text="所属车间"/>
+	<Control name="MeasureColumn04" text="所属产线"/>
+	<Control name="MeasureColumn05" text="类型"/>
+	<Control name="MeasureColumn06" text="系统"/>
+	<Control name="MeasureColumn07" text="参考值(mm)"/>
+	<Control name="MeasureColumn08" text="公差上限(mm)"/>
+	<Control name="MeasureColumn09" text="公差下限(mm)"/>
+	<Control name="MeasureColumn10" text="备注"/>
+	<Control name="tabPageNetset" text="网络设置"/> 
+	<Control name="labelPC" text="工控机IP:"/>
+	<Control name="labellathe" text="车床IP："/>
+	<Control name="labelCNC" text="CNCIP:"/>
+	<Control name="labelPLC" text="PLCIP:"/>
+	<Control name="label1robot" text="机器人IP:"/>
+	<Control name="label1video" text="录像机IP:"/>
+	<Control name="labelrfid" text="RFIDIP:"/>
+	<Control name="buttonNetSave" text="保存"/>
+    </Controls>
+  </Form>
+
+  <Form>
+    <!--CMMForm窗口-->
+    <Name>CMMForm</Name>
+    <Controls>
+      <Control name="tabPage1" text="状态"/>
+      <Control name="tabPage2" text="数据统计"/>
+     <Control name="groupBox1" text="机器状态 "/>
+      <Control name="label_State" text="离线"/>
+      <Control name="groupBox2" text="当前位置"/>
+
+      <Control name="radioButtonzhu" text="柱状图"/>
+     <Control name="radioButtonbing" text="饼状图"/>
+      <Control name="button_Find" text="查找"/>
+    </Controls>
+  </Form>
+
+  <Form>
+    <!--LogForm窗口-->
+    <Name>LogForm</Name>
+    <Controls>
+      <Control name="button_ReFshLog" text="刷新"/>
+      <Control name="button_LogFind" text="查找"/>
+      <Control name="button_CurentLog" text="查看当前日志"/>
+      <Control name="button_OpenOldLogFile"  text="查看历史日志"/>
+
+      <Control name="Node_system" text="系统日志"/>
+      <Control name="Node_system_security"  text="安全"/>
+      <Control name="Node_system_runing"  text="运行"/>
+      <Control name="Node_equipment" text="设备日志"/>
+      <Control name="Node_net"  text="网络日志"/>
+
+    </Controls>
+  </Form>
+
+  <Form>
+    <!--EquipmentCheckForm窗口-->
+    <Name>EquipmentCheckForm</Name>
+    <Controls>
+      <Control name="checkBox_DongTai" text="动态"/>
+      <Control name="checkBox_ZhengChang" text="显示正常"/>
+     <Control name="checkBox_YiChang" text="显示故障"/>
+      <Control name="button_UpDataTable" text="刷新"/>
+      <Control name="button_StarLine" text="开线"/>
+
+    </Controls>
+  </Form>
+
+  <Form>
+    <!--Form_LogFind窗口-->
+    <Name>Form_LogFind</Name>
+    <Controls>
+      <Control name="Form_LogFind" text="查找"/>
+      <Control name="label1" text="查找内容："/>
+     <Control name="button_FindNext" text="查找下一个"/>
+      <Control name="button_FindUp" text="查找上一个"/>
+      <Control name="button_Cans" text="取消"/>
+    </Controls>
+  </Form>
+
+  <Form>
+    <!--FormSetNumber窗口-->
+    <Name>FormSetNumber</Name>
+    <Controls>
+      <Control name="button_OK" text="确定"/>
+      <Control name="button_Cans" text="取消"/>
+    </Controls>
+  </Form>
+
+ <Form>
+    <!--VideoForm窗口-->
+    <Name>VideoForm</Name>
+    <Controls>
+      <Control name="groupBoxload" text="登录"/>
+      <Control name="label3" text="IP地址"/>
+      <Control name="label5" text="用户名"/>
+      <Control name="label7" text="设备端口"/>
+      <Control name="label4" text="端口号 "/>
+      <Control name="label6" text="密码"/>
+      <Control name="label8" text="通道列表"/>
+      <Control name="btmlogin" text="登录"/>
+      <Control name="labelstat1" text="登录状态"/>
+      <Control name="groupBoxview" text="预览"/>
+      <Control name="label9" text="码流类型"/>
+      <Control name="btmstartview" text="开始预览"/>
+      <Control name="btmstopview" text="停止预览"/>
+      <Control name="btmgetjpeg" text="抓图JPEG"/>
+      <Control name="btmgetbmp" text="抓图BMP"/>
+      <Control name="groupBoxoperation" text="操作信息"/>
+      <Control name="groupBoxevent" text="事件回调信息"/>
+      <Control name="label1" text="码流类型"/>
+    </Controls>
+  </Form>
+  
+<Form>
+    <!--NotOneForm跨越多个窗口类的语言-->
+    <Name>NotOneForm</Name>
+    <Controls>
+      <Control name="LinckedText" text="通信正常"/>
+	  <Control name="UnLinckedText" text="离线"/>
+	  <Control name="ParamColumn01" text="参数号"/>
+	  <Control name="ParamColumn02" text="名称"/>
+	  <Control name="ParamColumn03" text="参数值"/>
+	  <Control name="ParamColumn04" text="生效方式"/>
+	  <Control name="ParamColumn05" text="默认值"/>
+	  <Control name="ParamColumn06" text="最小值"/>
+	  <Control name="ParamColumn07" text="最大值"/>
+	  <Control name="ParamEffect01" text="保存生效"/>
+	  <Control name="ParamEffect02" text="立即生效"/>
+	  <Control name="ParamEffect03" text="复位生效"/>
+	  <Control name="ParamEffect04" text="重启生效"/>
+	  
+	  <Control name="button_AddGCode" text="添加G代码"/>
+          <Control name="button_DeletGCode" text="删除G代码"/>
+          <Control name="button_DowLoadGCode" text="下传G代码"/>
+
+          <Control name="label1" text="加工订单:"/>
+          <Control name="label2" text="车床:"/>
+          <Control name="label3" text="加工中心:"/>
+          <Control name="labelmagno" text="料仓编号:"/>
+          <Control name="labeltype" text="加工类型:"/>
+          <Control name="buttondingdanxiada"  text="订单下达"/>
+          <Control name="buttondingdanquxiao" text="撤销订单"/>
+	  <Control name="CNCGcodeColumn01" text="选择"/>
+	  <Control name="CNCGcodeColumn02" text="机床编号"/>
+	  <Control name="CNCGcodeColumn03" text="下载状态"/>
+	  <Control name="CNCGcodeColumn04" text="备注"/>
+	  <Control name="GcodeSeleColumn01" text="选择"/>
+	  <Control name="GcodeSeleColumn02" text="G代码路径"/>
+	  <Control name="GcodeSeleColumn03" text="备注"/>
+	  <Control name="SelectFileTitle" text="请选择文件"/>
+	  <Control name="SelectFileFilter" text="NC文件|o*"/>
+	  <Control name="LoadSuccess01" text="下载成功："/>
+	  <Control name="LoadSuccess02" text="下载成功！"/>
+	  <Control name="LoadFailed01" text="下载失败："/>
+	  <Control name="LoadFailed02" text="下载失败！"/>
+	  
+	  <Control name="LogColumn01" text="级别"/>
+	  <Control name="LogColumn02" text="日期和时间"/>
+	  <Control name="LogColumn03" text="来源"/>
+	  <Control name="LogColumn04" text="事件"/>
+	  <Control name="LogColumn05" text="事件描述"/>
+	  <Control name="LogColumn06" text="事件数据"/>
+	  <Control name="LogContentNCNCollectDataFailed" text="NCN采集数据失败"/>
+	  <Control name="LogContentFialureOfAcquisitionAndProcessingCompletion" text=" 采集加工完成数失败！"/>
+	  <Control name="LogContentCNCCollectorClose" text="CNC采集器关闭"/>
+	  <Control name="LogContentThisTimeGetSN" text="：本次获取SN="/>
+	  <Control name="LogContentLastTimeGetSN" text="；上周期SN="/>
+	  <Control name="LogContentFailureToCallTheNetworkInterface10times" text="：累计连续10次调用网络接口失败！"/>
+	  <Control name="LogContentMonitorRegisterFailure" text="监控寄存器失败"/>
+	  <Control name="LogContentCNCCollectorStart" text="CNC采集器开启"/>
+	  <Control name="LogContentLinkNumber" text=" 链接号="/>
+	  <Control name="LogContentErrorOfThreeCoordinateDeviceNetworkInitialization" text="三坐标设备接口网络初始化出错"/>
+	  <Control name="LogContentProcessingCompletionNumberAbnormality" text="加工完成数异常"/>
+	  <Control name="LogContentProcessingCompletionNumber" text=" 加工完成数="/>
+	  <Control name="LogContentSaveHistoryLog" text="保存历史日志"/>
+	  <Control name="LogContentHistoryLog" text="历史日志文件："/>
+	  <Control name="LogContentTheSoftExit" text="软件退出"/>
+	  <Control name="LogContentOperateUser" text="操作用户："/>
+	  <Control name="LogContentUIRefreshThreadExit" text="UI刷新线程退出"/>
+	  <Control name="LogContentGCodeDisplayError" text="G代码显示错误"/>
+	  <Control name="LogContentClearLineOperation" text="清线操作"/>
+	  <Control name="LogContentUser" text="用户："/>
+	  <Control name="LogContentUserRegistration" text="用户注册"/>
+	  <Control name="LogContentUserRegistrationSuccess" text="用户注册成功！"/>
+	  <Control name="LogContentUserRegistrationFailure" text="用户注册失败！"/>
+	  <Control name="LogContentDeviceInitSuccess" text="设备初始化成功"/>
+	  <Control name="LogContentAllDeviceInitSuccess" text="所有设备初始化成功！"/>
+	  <Control name="LogContentDeviceInitFailure" text="设备初始化失败"/>
+	  <Control name="LogContentCNCInit" text="CNC初始化"/>
+	  <Control name="LogContentInitSuccess" text="初始化成功"/>
+	  <Control name="LogContentRFIDConnectStatus" text="RFID连接状态"/>
+	  <Control name="LogContentConnectSuccess" text="连接成功"/>
+	  <Control name="LogContentConnectFailure" text="连接失败"/>
+	  <Control name="LogContentConfigurationParameterPreservation" text="配置参数保存"/>
+	  <Control name="LogContentConfigurationParameterPreservationSuccess" text="配置参数保存成功"/>
+	  <Control name="LogContentUserManagementOperation" text="用户管理操作"/>	  
+	  <Control name="MessageFormTitle01" text="提示"/>
+	  <Control name="MessageFormContent001" text="设置数据已经更新，是否保存？"/>
+	  <Control name="MessageFormContent002" text="配置数据已经改变，是否保存？"/>
+	  <Control name="MessageFormContent003" text="配置数据已经改变，需要先保存才能编辑输出输入信号，是否保存？"/>
+	  <Control name="MessageFormContent004" text="保存成功"/>
+	  <Control name="MessageFormButton01" text="确认"/>
+	  <Control name="MessageFormButton02" text="取消"/>
+	  <Control name="MessageFilePathExist" text="列表中已存在该G代码路径！"/>
+	  
+	  <Control name="OrderViewColumn00" text="选择"/>
+	  <Control name="OrderViewColumn01" text="订单编号"/>
+	  <Control name="OrderViewColumn02" text="工件类型"/>
+	  <Control name="OrderViewColumn03" text="加工数量"/>
+	  <Control name="OrderViewColumn04" text="订单生成时间"/>
+	  <Control name="OrderViewColumn05" text="备注"/>
+	  <Control name="OrderViewColumn06" text="订单下发时间"/>
+	  <Control name="OrderViewColumn07" text="已完成工件数量"/>
+	  <Control name="OrderViewColumn08" text="订单开始时间"/>
+	  <Control name="OrderViewColumn09" text="订单结束时间"/>
+	  <Control name="OrderViewColumn10" text="订单状态"/>
+	  <Control name="OrderBtn01" text="新增订单"/>
+	  <Control name="OrderBtn02" text="删除订单"/>
+	  <Control name="OrderBtn03" text="订单下发"/>
+	  <Control name="OrderBtn04" text="取消订单"/>
+	  <Control name="OrderBtn05" text="恢复订单"/>
+	  <Control name="Ordergroupbox01" text="订单设置"/>
+	  <Control name="Ordergroupbox02" text="订单状态"/>
+	  
+	  <Control name="EquipmentMachine" text="机台"/>
+	  <Control name="EquipmentOffline" text="离线"/>
+	  <Control name="EquipmentFree" text="空闲"/>
+	  <Control name="EquipmentWorking" text="运行"/>
+	  <Control name="EquipmentFeedHold" text="保持进给"/>
+	  <Control name="EquipmentEmergencyStop" text="急停"/>
+	  
+	  <Control name="btnAuto" text="自动"/>
+	  <Control name="btnSingle" text="单段"/>
+	  <Control name="btnManual" text="手动"/>
+	  <Control name="btn⁯Increment" text="增量"/>
+	  <Control name="btn⁯ReZero" text="回参考点"/>
+	  <Control name="btn⁯⁯ProgramSkip" text="程序跳段"/>
+	  <Control name="btn⁯⁯⁯AirRun" text="空运行"/>
+	  <Control name="btn⁯⁯⁯ChoiceStop" text="选择停"/>
+	  <Control name="btnZLock" text="Z轴锁住"/>
+	  <Control name="btnMSTLock" text="MST锁住"/>
+	  <Control name="btnCNCLock" text="机床锁住"/>
+	  <Control name="btnSpindleLift" text="主轴升档"/>
+	  <Control name="btnSpindleDown" text="主轴降档"/>
+	  <Control name="btnSpindleForward" text="主轴正转"/>
+	  <Control name="btnSpindleReversal" text="主轴反转"/>
+	  <Control name="btnSpindleMove" text="主轴点动"/>
+	  <Control name="btnSpindleStop" text="主轴停止"/>
+	  <Control name="btnSpindleQrientation" text="主轴定向"/>
+	  <Control name="btnSpindleBrake" text="主轴制动"/>
+	  <Control name="btnFast" text="快进"/>
+	  <Control name="btnFeed1" text="进给1%"/>
+	  <Control name="btnFeed25" text="进给25%"/>
+	  <Control name="btnFeed50" text="进给50%"/>
+	  <Control name="btnFeed100" text="进给100%"/>
+	  <Control name="btnTightChuck" text="卡盘松/紧"/>
+	  <Control name="btnTailLoose" text="尾台松/紧"/>
+	  <Control name="btnProtectDoor" text="防护门"/>
+	  <Control name="btnHydraulicStart" text="液压启动"/>
+	  <Control name="btnFeedHold" text="进给保持"/>
+	  <Control name="btnToolChange" text="手动换刀"/>
+	  <Control name="btnThreeAxisHome" text="三轴回零"/>
+	  <Control name="btnToolHome" text="刀库回零"/>
+	  <Control name="btnCooling" text="冷却"/>
+	  <Control name="btnLubrication" text="润滑"/>
+	  <Control name="btnOverRemove" text="超程解除"/>
+	  <Control name="btnWorkLight" text="工作灯"/>
+	  <Control name="btnCycleStart" text="循环启动"/>
+	  <Control name="btnSwichPermit" text="换刀允许"/>
+	  <Control name="btnToolCutter" text="刀具松/紧"/>
+	  <Control name="btnToolForward" text="刀具正转"/>
+	  <Control name="btnToolReversal" text="刀具反转"/>
+	  <Control name="btnBlowingDust" text="吹屑"/>
+	  <Control name="btnAutoShutdown" text="自动断电"/>
+	  <Control name="btnChipForward" text="排屑正转"/>
+	  <Control name="btnChipStop" text="排屑停止"/>
+	  <Control name="btnChipReversal" text="排屑反转"/>
+    </Controls>
+  </Form>
+</Softimite>

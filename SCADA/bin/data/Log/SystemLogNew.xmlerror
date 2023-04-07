@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <System>
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:48:22" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="004初始化成功；IP = 192.168.8.157  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:48:22" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="003初始化成功；IP = 192.168.8.156  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:48:22" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="002初始化成功；IP = 192.168.8.177  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:48:22" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="001初始化成功；IP = 192.168.8.176  Port = 10001" />
+    <System_security Level="审核" TimeCreated="2021/4/14 13:45:47" Provider="SCADA.NewApp.LineMainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:44:26" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:44:26" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="008初始化成功；IP = 192.168.8.52  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:44:26" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="007初始化成功；IP = 192.168.8.51  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:44:26" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="006初始化成功；IP = 192.168.8.42  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:44:26" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="005初始化成功；IP = 192.168.8.41  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:44:26" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="004初始化成功；IP = 192.168.8.157  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:44:26" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="003初始化成功；IP = 192.168.8.156  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:44:26" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="002初始化成功；IP = 192.168.8.177  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:44:26" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="001初始化成功；IP = 192.168.8.176  Port = 10001" />
+    <System_security Level="审核" TimeCreated="2021/4/14 13:44:26" Provider="SCADA.NewApp.LineMainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:41:52" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:41:52" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="008初始化成功；IP = 192.168.8.52  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:41:52" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="007初始化成功；IP = 192.168.8.51  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:41:52" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="006初始化成功；IP = 192.168.8.42  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:41:52" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="005初始化成功；IP = 192.168.8.41  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:41:52" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="004初始化成功；IP = 192.168.8.157  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:41:52" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="003初始化成功；IP = 192.168.8.156  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:41:52" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="002初始化成功；IP = 192.168.8.177  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:41:52" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="001初始化成功；IP = 192.168.8.176  Port = 10001" />
+    <System_security Level="审核" TimeCreated="2021/4/14 13:41:51" Provider="SCADA.NewApp.LineMainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:39:36" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:39:36" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="008初始化成功；IP = 192.168.8.52  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:39:36" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="007初始化成功；IP = 192.168.8.51  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:39:36" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="006初始化成功；IP = 192.168.8.42  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:39:36" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="005初始化成功；IP = 192.168.8.41  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:39:36" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="004初始化成功；IP = 192.168.8.157  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:39:36" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="003初始化成功；IP = 192.168.8.156  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:39:36" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="002初始化成功；IP = 192.168.8.177  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:39:36" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="001初始化成功；IP = 192.168.8.176  Port = 10001" />
+    <System_security Level="审核" TimeCreated="2021/4/14 13:39:36" Provider="SCADA.NewApp.LineMainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:35:23" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:35:23" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="008初始化成功；IP = 192.168.8.52  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:35:23" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="007初始化成功；IP = 192.168.8.51  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:35:23" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="006初始化成功；IP = 192.168.8.42  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:35:23" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="005初始化成功；IP = 192.168.8.41  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:35:23" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="004初始化成功；IP = 192.168.8.157  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:35:23" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="003初始化成功；IP = 192.168.8.156  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:35:23" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="002初始化成功；IP = 192.168.8.177  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:35:23" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="001初始化成功；IP = 192.168.8.176  Port = 10001" />
+    <System_security Level="审核" TimeCreated="2021/4/14 13:35:22" Provider="SCADA.NewApp.LineMainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:31:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:31:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="008初始化成功；IP = 192.168.8.52  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:31:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="007初始化成功；IP = 192.168.8.51  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:31:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="006初始化成功；IP = 192.168.8.42  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:31:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="005初始化成功；IP = 192.168.8.41  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:31:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="004初始化成功；IP = 192.168.8.157  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:31:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="003初始化成功；IP = 192.168.8.156  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:31:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="002初始化成功；IP = 192.168.8.177  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:31:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="001初始化成功；IP = 192.168.8.176  Port = 10001" />
+    <System_security Level="审核" TimeCreated="2021/4/14 13:31:57" Provider="SCADA.NewApp.LineMainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:28:19" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:28:19" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="008初始化成功；IP = 192.168.8.52  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:28:18" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="007初始化成功；IP = 192.168.8.51  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:28:18" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="006初始化成功；IP = 192.168.8.42  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:28:18" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="005初始化成功；IP = 192.168.8.41  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:28:18" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="004初始化成功；IP = 192.168.8.157  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:28:18" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="003初始化成功；IP = 192.168.8.156  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:28:18" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="002初始化成功；IP = 192.168.8.177  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:28:18" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="001初始化成功；IP = 192.168.8.176  Port = 10001" />
+    <System_security Level="审核" TimeCreated="2021/4/14 13:28:18" Provider="SCADA.NewApp.LineMainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:23:33" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:23:33" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="008初始化成功；IP = 192.168.8.52  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:23:33" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="007初始化成功；IP = 192.168.8.51  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:23:33" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="006初始化成功；IP = 192.168.8.42  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:23:33" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="005初始化成功；IP = 192.168.8.41  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:23:33" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="004初始化成功；IP = 192.168.8.157  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:23:33" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="003初始化成功；IP = 192.168.8.156  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:23:33" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="002初始化成功；IP = 192.168.8.177  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:23:33" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="001初始化成功；IP = 192.168.8.176  Port = 10001" />
+    <System_security Level="审核" TimeCreated="2021/4/14 13:23:32" Provider="SCADA.NewApp.LineMainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:14:41" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:14:41" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="008初始化成功；IP = 192.168.8.52  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:14:41" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="007初始化成功；IP = 192.168.8.51  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:14:41" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="006初始化成功；IP = 192.168.8.42  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:14:41" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="005初始化成功；IP = 192.168.8.41  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:14:41" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="004初始化成功；IP = 192.168.8.157  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:14:41" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="003初始化成功；IP = 192.168.8.156  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:14:41" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="002初始化成功；IP = 192.168.8.177  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:14:40" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="001初始化成功；IP = 192.168.8.176  Port = 10001" />
+    <System_security Level="审核" TimeCreated="2021/4/14 13:14:40" Provider="SCADA.NewApp.LineMainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:12:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:12:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="008初始化成功；IP = 192.168.8.52  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:12:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="007初始化成功；IP = 192.168.8.51  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:12:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="006初始化成功；IP = 192.168.8.42  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:12:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="005初始化成功；IP = 192.168.8.41  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:12:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="004初始化成功；IP = 192.168.8.157  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:12:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="003初始化成功；IP = 192.168.8.156  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:12:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="002初始化成功；IP = 192.168.8.177  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:12:58" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="001初始化成功；IP = 192.168.8.176  Port = 10001" />
+    <System_security Level="审核" TimeCreated="2021/4/14 13:12:58" Provider="SCADA.NewApp.LineMainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:09:21" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:09:21" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="008初始化成功；IP = 192.168.8.52  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:09:21" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="007初始化成功；IP = 192.168.8.51  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:09:21" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="006初始化成功；IP = 192.168.8.42  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:09:21" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="005初始化成功；IP = 192.168.8.41  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:09:21" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="004初始化成功；IP = 192.168.8.157  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:09:21" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="003初始化成功；IP = 192.168.8.156  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:09:21" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="002初始化成功；IP = 192.168.8.177  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:09:21" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="001初始化成功；IP = 192.168.8.176  Port = 10001" />
+    <System_security Level="审核" TimeCreated="2021/4/14 13:09:21" Provider="SCADA.NewApp.LineMainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:07:46" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:07:46" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="008初始化成功；IP = 192.168.8.52  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:07:46" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="007初始化成功；IP = 192.168.8.51  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:07:46" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="006初始化成功；IP = 192.168.8.42  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:07:46" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="005初始化成功；IP = 192.168.8.41  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:07:46" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="004初始化成功；IP = 192.168.8.157  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:07:46" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="003初始化成功；IP = 192.168.8.156  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:07:46" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="002初始化成功；IP = 192.168.8.177  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/14 13:07:46" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="001初始化成功；IP = 192.168.8.176  Port = 10001" />
+    <System_security Level="审核" TimeCreated="2021/4/14 13:07:46" Provider="SCADA.NewApp.LineMainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/13 20:02:21" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2021/4/13 20:02:21" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="008初始化成功；IP = 192.168.8.52  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/13 20:02:21" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="007初始化成功；IP = 192.168.8.51  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/13 20:02:21" Provider="SCADA.NewApp.LineMainForm" EventID="0" Keywords="CNC初始化" EventData="006初始化成功；IP = 192.168.8.42  Port = 10001" />
+    <System_runing Level="消息" TimeCreated="2021/4/13 20:02:21" Provider="SCADA.NewApp.LineMa

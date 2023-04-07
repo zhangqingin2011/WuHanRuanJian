@@ -1,0 +1,1151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <System>
+    <System_runing Level="消息" TimeCreated="2018/3/15 16:08:18" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 16:08:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 16:08:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 16:08:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 16:08:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 16:08:06" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 16:02:53" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 16:02:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 16:02:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 16:02:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 16:02:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 16:02:07" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:44:56" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:44:47" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:44:35" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:44:35" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:44:35" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:44:35" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 15:44:33" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:44:28" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:44:28" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:44:26" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:44:17" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:44:13" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:44:03" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:44:03" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:44:03" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:44:03" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 15:44:01" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:43:01" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:42:51" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:42:51" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:42:51" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:42:51" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 15:42:50" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:42:47" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:42:47" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:42:43" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:42:32" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:42:30" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:42:29" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:42:23" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:42:21" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:42:16" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:42:08" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:42:04" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:41:52" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.10 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:41:52" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:41:52" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:41:52" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:41:52" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:41:52" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 15:41:51" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:40:07" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.10 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:40:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:40:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:40:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:40:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:40:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 15:40:05" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:37:22" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:37:08" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.10 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:37:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:37:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:37:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:37:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:37:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 15:37:06" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:36:56" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:36:56" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:34:12" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:33:51" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.10 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:33:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:33:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:33:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:33:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:33:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 15:33:50" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:32:44" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:32:05" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.10 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:32:05" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:32:05" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:32:05" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:32:05" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:32:05" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 15:32:04" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:28:50" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 15:28:45" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:28:21" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:19:38" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.10 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:19:37" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:19:37" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:19:37" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:19:37" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:19:37" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 15:19:36" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:06:57" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:06:42" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.10 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:06:42" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:06:42" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:06:42" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:06:42" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 15:06:42" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 15:06:41" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 13:50:30" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.10 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 13:50:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 13:50:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 13:50:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 13:50:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 13:50:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 13:50:29" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 13:46:07" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.10 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 13:46:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 13:46:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 13:46:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 13:46:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 13:46:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 13:46:05" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:15:28" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:14:00" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:12:57" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.10 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:12:55" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:12:55" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:12:55" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:12:55" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:12:55" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 11:12:54" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:12:41" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:12:41" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:11:03" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:10:40" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.10 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:10:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:10:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:10:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.103  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:10:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:10:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.101  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 11:10:38" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:10:33" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:10:33" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:10:32" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:10:24" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:10:10" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:10:09" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:10:08" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:10:07" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:10:06" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:10:04" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:10:02" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:09:58" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:09:52" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:09:07" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:09:03" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:09:01" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:09:00" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/15 11:08:47" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:08:40" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:08:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:08:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:08:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:08:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/15 11:08:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/15 11:08:25" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 19:26:28" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 19:24:43" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 19:24:43" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 19:24:43" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 19:24:43" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 19:24:43" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 19:24:42" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/14 19:24:33" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/14 19:24:33" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/14 19:21:36" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 19:14:31" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 19:14:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 19:14:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 19:14:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 19:14:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 19:14:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 19:14:20" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:36:03" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:35:51" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:35:51" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:35:51" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:35:51" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:35:51" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 18:35:50" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/14 18:35:00" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/14 18:35:00" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:34:45" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:34:45" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:34:45" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:34:45" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:34:45" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:34:45" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 18:34:44" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:34:02" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:33:51" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:33:51" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:33:51" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:33:51" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:33:51" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 18:33:50" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:23:53" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:23:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:23:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:23:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:23:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 18:23:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 18:23:38" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 17:19:14" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 17:19:02" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 17:19:02" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 17:19:02" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 17:19:02" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 17:19:02" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 17:19:01" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/14 17:18:53" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/14 17:18:53" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 17:05:58" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 17:05:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 17:05:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 17:05:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 17:05:20" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 17:05:20" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 17:05:20" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:47:46" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:47:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:47:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:47:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:47:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:47:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 16:47:25" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/14 16:46:12" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/14 16:46:12" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:45:44" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:45:44" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:45:44" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:45:44" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:45:44" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:45:44" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 16:45:43" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:44:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:44:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:44:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:44:30" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:44:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:44:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 16:44:29" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:43:36" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:43:36" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:43:36" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:43:36" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:43:36" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:43:36" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 16:43:35" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:31:26" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:31:26" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:31:26" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:31:26" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:31:26" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:31:26" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 16:31:25" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:30:54" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:30:54" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:30:54" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:30:53" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:30:53" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:30:53" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 16:30:52" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:23:31" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:23:31" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:23:31" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:23:31" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:23:31" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:23:31" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 16:23:30" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:20:44" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:20:44" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:20:44" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:20:44" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:20:43" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:20:43" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 16:20:42" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/14 16:20:16" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/14 16:20:16" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:19:50" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:19:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:19:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:19:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:19:49" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:19:49" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 16:19:48" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/14 16:19:14" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/14 16:19:14" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/14 16:11:34" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:10:50" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:10:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:10:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:10:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:10:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 16:10:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 16:10:49" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/14 16:00:22" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/14 16:00:22" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:59:53" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:59:53" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:59:53" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:59:53" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:59:53" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:59:53" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 15:59:52" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/14 15:47:19" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/14 15:47:19" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:38:37" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:38:37" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:38:37" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:38:37" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.8.16  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:38:36" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:38:36" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.8.15  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 15:38:35" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/14 15:38:29" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/14 15:38:29" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/14 15:38:27" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/14 15:38:25" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/14 15:37:46" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:37:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:37:39" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:37:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:37:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:37:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:37:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:37:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 15:37:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 15:37:37" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/14 13:33:30" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/14 13:33:30" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/14 13:33:13" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/14 13:31:29" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:30:09" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:30:09" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:30:09" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:30:09" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:30:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:30:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:30:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:30:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 13:30:07" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/14 13:30:01" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/14 13:30:01" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/14 13:30:01" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/14 13:30:00" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/14 13:29:45" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:28:02" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:28:02" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:28:00" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:28:00" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:28:00" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:28:00" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:28:00" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:27:59" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/14 13:27:59" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/14 13:27:56" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/13 13:52:00" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:42:02" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:42:02" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:39:12" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:39:12" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:39:12" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:39:09" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:39:09" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:39:06" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:39:06" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 13:39:02" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/13 13:35:57" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:28:31" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:28:31" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:28:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:28:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:28:07" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:28:04" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:28:04" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:28:01" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:28:01" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 13:27:57" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/13 13:27:06" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:26:51" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:26:51" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:26:28" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:26:28" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:26:28" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:26:25" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:26:25" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:26:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 13:26:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 13:26:17" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/13 11:42:25" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/13 11:42:25" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:42:06" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:42:06" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:41:43" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:41:43" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:41:43" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:41:40" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:41:40" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:41:36" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:41:36" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 11:41:32" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/13 11:40:37" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/13 11:40:37" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:40:23" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:40:23" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:39:38" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:39:38" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:39:38" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:39:36" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:39:36" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:39:32" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:39:32" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 11:39:28" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:21:24" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:21:24" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:21:00" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:21:00" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:21:00" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:20:57" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:20:57" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:20:55" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:20:55" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 11:20:50" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/13 11:15:08" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/13 11:15:08" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/13 11:15:06" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:09:13" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:09:13" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:08:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:08:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:08:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:08:47" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:08:47" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:08:44" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:08:44" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 11:08:39" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/13 11:06:29" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/13 11:06:29" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:05:51" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:05:51" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:05:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:05:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:05:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:05:24" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:05:24" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:05:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 11:05:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 11:05:17" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/13 10:34:49" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 10:33:34" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 10:33:29" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 10:33:06" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 10:33:06" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 10:33:06" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 10:32:59" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 10:32:59" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 10:32:55" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 10:32:55" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 10:32:51" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:39:30" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:39:18" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:39:18" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:39:18" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:39:18" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:39:15" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:39:15" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:39:12" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:39:12" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 9:39:08" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:03:17" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:00:15" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:00:15" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:00:15" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:00:15" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:00:12" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:00:12" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:00:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 9:00:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 9:00:04" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:59:21" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:59:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:59:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:59:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:59:18" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:59:18" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:59:15" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:59:15" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 8:59:11" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:52:46" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:52:00" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:52:00" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:52:00" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:52:00" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:51:57" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:51:57" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:51:54" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:51:54" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 8:51:50" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:32:21" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:32:09" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:32:09" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:32:09" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:32:09" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:32:06" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:32:06" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:32:02" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:32:02" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 8:31:58" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:24:48" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:24:40" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:24:40" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:24:40" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:24:40" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:24:37" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:24:37" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:24:34" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:24:34" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 8:24:30" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:20:05" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:19:36" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:19:36" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:19:36" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:19:36" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:19:33" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:19:33" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:19:29" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:19:29" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 8:19:25" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:18:20" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:18:20" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:18:19" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:18:19" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:18:19" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:18:16" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:18:16" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:18:13" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:18:13" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 8:18:09" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:16:22" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:16:11" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:16:11" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:16:11" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:16:11" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:16:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:16:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:16:04" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/13 8:16:04" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/13 8:15:31" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:38:53" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:38:38" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:38:38" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:38:38" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:38:38" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:38:35" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:38:35" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:38:32" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:38:32" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 16:38:28" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/12 16:35:12" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/12 16:35:12" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:34:49" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:34:40" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:34:40" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:34:40" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:34:40" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:34:37" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:34:37" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:34:33" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:34:33" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 16:34:29" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:03:17" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:03:09" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:03:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:03:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:03:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:03:05" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:03:05" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:03:02" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 16:03:02" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 16:02:59" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/12 15:38:53" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/12 15:38:53" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:34:16" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:31:13" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:31:13" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:31:13" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:31:13" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:31:06" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:31:06" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:31:03" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:31:03" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 15:30:59" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:28:15" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:28:03" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:28:03" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:28:03" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:28:03" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:28:00" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:28:00" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:27:57" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:27:57" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 15:27:53" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:25:33" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:25:30" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:25:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:25:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:25:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:25:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:25:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:25:25" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:25:25" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 15:25:21" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:21:33" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:21:04" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:21:04" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:21:04" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:21:04" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:21:01" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:21:01" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:20:58" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:20:58" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 15:20:54" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:16:32" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:16:17" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:16:17" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:16:17" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:16:17" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:16:14" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:16:14" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:16:11" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:16:11" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 15:16:07" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:15:34" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:15:29" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:15:29" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:15:29" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:15:29" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:15:26" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:15:26" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:15:22" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:15:22" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 15:15:18" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/12 15:15:09" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/12 15:15:09" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:07:11" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:07:02" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:06:46" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:06:46" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:06:46" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:06:43" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:06:43" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:06:40" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:06:40" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 15:06:36" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:01:57" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:01:55" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:01:54" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:01:54" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:01:54" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:01:47" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:01:47" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:01:44" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 15:01:44" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 15:01:40" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/12 15:01:31" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/12 15:01:31" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:57:18" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:57:09" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:57:09" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:57:09" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:57:09" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:57:06" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:57:06" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:57:03" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:57:03" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 14:56:59" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:56:25" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:56:25" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 14:56:21" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:38:22" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:38:22" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:38:22" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:38:22" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:38:22" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:38:19" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:38:19" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:38:15" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:38:15" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 14:38:11" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/12 14:35:38" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/12 14:35:38" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:28:26" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:28:26" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:28:25" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:28:25" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:28:25" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:28:22" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:28:22" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:28:19" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:28:19" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 14:28:15" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:23:55" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:23:55" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:23:54" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:23:54" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:23:54" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:23:51" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:23:51" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:23:48" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:23:48" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 14:23:44" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:17:32" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:17:21" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:17:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:17:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:17:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:17:17" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:17:17" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:17:14" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 14:17:14" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 14:17:10" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:55:19" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:55:14" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:55:14" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:55:14" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:55:14" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:55:12" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:55:12" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:55:09" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:55:09" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 13:55:04" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:49:09" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:44:39" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:44:38" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:44:38" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:44:38" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:44:35" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:44:35" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:44:32" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:44:32" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 13:44:28" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:36:23" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:29:14" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:29:14" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:29:14" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:29:14" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:29:11" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:29:11" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:29:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:29:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 13:29:04" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:27:22" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:27:14" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:26:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:26:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:26:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:26:47" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:26:47" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:26:44" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:26:44" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 13:26:41" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/12 13:23:24" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/12 13:23:24" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:22:45" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:22:41" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:22:18" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:22:18" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:22:18" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:22:15" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:22:15" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:22:11" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:22:11" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 13:21:34" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:17:24" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:17:05" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:16:42" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:16:42" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:16:42" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:16:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:16:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:16:31" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 13:16:31" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 13:16:21" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 11:43:48" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 11:43:35" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 11:43:12" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 11:43:12" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 11:43:12" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 11:43:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 11:43:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 11:43:05" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 11:43:05" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 11:42:47" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/12 10:57:57" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:50:04" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:49:57" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:49:34" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:49:34" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:49:34" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:49:31" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:49:31" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:49:28" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:49:28" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 10:48:06" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/12 10:20:51" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/12 10:20:51" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:20:09" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:20:04" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:19:41" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:19:41" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:19:41" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:19:38" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:19:38" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:19:34" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:19:34" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 10:19:30" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/12 10:17:28" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/12 10:17:28" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:16:39" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:16:35" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:16:11" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:16:11" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:16:11" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:16:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:16:08" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:16:05" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:16:05" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 10:16:01" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/12 10:14:32" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/12 10:14:32" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:14:02" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:13:51" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:13:28" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:13:28" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:13:28" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:13:25" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:13:25" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:13:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:13:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 10:13:17" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/12 10:11:58" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/12 10:11:58" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/12 10:11:56" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:11:30" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:11:24" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:11:01" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:11:01" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:11:01" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:10:58" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:10:58" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:10:56" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 10:10:56" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 10:10:52" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/12 9:01:28" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/12 9:01:28" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/12 9:01:24" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/12 9:01:21" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/12 9:01:20" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/12 9:01:18" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/12 9:01:17" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/12 9:01:15" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/12 9:00:24" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/12 9:00:23" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/12 9:00:18" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/12 9:00:17" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/12 9:00:17" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/12 9:00:15" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/12 9:00:14" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_security Level="消息" TimeCreated="2018/3/12 9:00:12" Provider="SCADA.SetForm" EventID="0" Keywords="配置参数保存" EventData="配置参数保存功" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 8:59:12" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 8:58:46" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 8:58:22" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 8:58:22" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 8:58:22" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 8:58:19" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 8:58:19" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 8:58:16" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/12 8:58:16" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/12 8:58:12" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:51:25" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:49:30" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:49:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:49:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:49:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:49:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:49:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:49:24" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:49:24" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/10 16:49:20" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/10 16:48:27" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/10 16:48:27" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:39:55" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:19:18" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:19:18" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:19:18" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:19:18" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:19:15" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:19:15" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:19:12" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:19:12" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/10 16:19:08" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/10 16:05:48" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_security Level="消息" TimeCreated="2018/3/10 16:05:48" Provider="SCADA.LogData" EventID="0" Keywords="软件退出" EventData="操作用户:；" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:05:34" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:03:25" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:03:19" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:03:19" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:03:19" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:03:16" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:03:16" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:03:13" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/10 16:03:13" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/10 16:03:07" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/8 12:01:46" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/8 12:01:46" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/8 12:01:46" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/8 12:01:46" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/8 12:01:42" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/8 12:01:42" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/8 12:01:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/8 12:01:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/8 12:01:35" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 15:40:48" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 15:37:28" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 15:37:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 15:37:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 15:37:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 15:37:24" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 15:37:24" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 15:37:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 15:37:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/7 15:37:17" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:51:04" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:51:04" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:51:04" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:51:04" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:51:01" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:51:01" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:50:58" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:50:58" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/7 14:50:54" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:50:43" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:49:49" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:49:49" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:49:49" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:49:49" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:49:46" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:49:46" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:49:43" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:49:43" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/7 14:49:39" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:48:55" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:48:45" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:48:45" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:48:45" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:48:45" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:48:42" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:48:42" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:48:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:48:39" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/7 14:48:35" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:47:48" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:47:36" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:47:35" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:47:35" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:47:35" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:47:33" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:47:33" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:47:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:47:30" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/7 14:47:26" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:43:53" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:43:28" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:43:28" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:43:28" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:43:28" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:43:24" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:43:24" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:43:22" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:43:22" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/7 14:43:18" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:37:33" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:37:28" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:36:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:36:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:36:27" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:36:25" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:36:25" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:36:22" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/7 14:36:22" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/7 14:36:18" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:55:33" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:55:28" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:55:28" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:55:28" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:55:28" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:55:24" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:55:24" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:55:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:55:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/6 13:55:17" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:36:56" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:36:23" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:36:23" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:36:23" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:36:23" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:36:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:36:21" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:36:18" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:36:18" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/6 13:36:14" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:32:42" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:31:30" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:31:23" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:31:23" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:31:23" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:31:20" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:31:20" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:31:17" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:31:17" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/6 13:31:13" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:31:01" Provider="SCADA.MainForm" EventID="0" Keywords="设备初始化成功" EventData="所有设备初始化成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:24:11" Provider="SCADA.MainForm" EventID="0" Keywords="RFID连接状态" EventData="连接失败；IP = 192.168.1.12 端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:23:54" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:23:54" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:23:54" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:23:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:23:50" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:23:47" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:23:47" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/6 13:23:43" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:20:04" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:20:04" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:20:04" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="3初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:20:01" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:20:01" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="2初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:19:58" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_runing Level="消息" TimeCreated="2018/3/6 13:19:58" Provider="SCADA.MainForm" EventID="0" Keywords="CNC初始化" EventData="1初始化成功；IP = 192.168.1.99  端口 = 10001" />
+    <System_security Level="审核" TimeCreated="2018/3/6 13:19:53" Provider="SCADA.MainForm" EventID="4" Keywords="用户注册" EventData="用户注册成功！" />
+    <System_security Level="消息" TimeCreated="2018/3/6 13:19:51" Provider="SCADA.LogData" EventID="0" Keywords="保存历史日志" EventData="..\data\Log\SystemLog.xml格式已经被破坏，文件被备份为：..\data\Log\SystemLog.xmlerrer" />
+  </System>
+  <Equipment>
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:41:45" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:41:45" Provider="LineDevice.CNC" EventID="0" Keywords="1加工完成数异常" EventData="old = 2  new = 0" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:41:45" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:41:11" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:41:10" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:39:12" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:39:12" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:36:54" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:35:36" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:35:35" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:26:14" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:26:13" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:26:08" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:26:07" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:25:08" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:25:07" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:24:47" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:24:46" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:23:53" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:23:52" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:23:50" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:23:49" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:19:07" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:19:06" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:15:40" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:15:39" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:15:30" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:15:29" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:15:18" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:15:17" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:12:37" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:12:36" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:12:34" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:12:33" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:12:27" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:12:26" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:12:17" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:12:16" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:11:54" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:11:53" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:11:44" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:11:43" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:11:09" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:11:08" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:10:58" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:10:57" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:10:37" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:10:36" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:10:22" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:10:21" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:09:14" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:09:13" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:09:03" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:09:02" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:08:49" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:08:48" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:08:43" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:08:42" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:08:20" Provider="LineDevice.CNC" EventID="0" Keywords="2加工完成数异常" EventData="old = -100  new = 2" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:08:20" Provider="LineDevice.CNC" EventID="0" Keywords="1加工完成数异常" EventData="old = -100  new = 2" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:08:20" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:08:20" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:07:47" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:07:46" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:05:07" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:05:06" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:04:32" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:04:31" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:04:27" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:04:26" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:04:13" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:04:12" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:02:55" Provider="LineDevice.CNC" EventID="0" Keywords="2加工完成数异常" EventData="old = -100  new = 2" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:02:55" Provider="LineDevice.CNC" EventID="0" Keywords="1加工完成数异常" EventData="old = -100  new = 2" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:02:55" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:02:55" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:00:50" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:00:49" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:00:13" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:00:12" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:00:07" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 16:00:06" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:56:52" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:56:47" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:56:40" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:56:39" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:56:04" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:56:03" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:55:57" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:55:56" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:55:45" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:55:44" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:55:09" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:55:08" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:49:24" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:49:23" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获取SN=2D2F1B983FF3797；上周期SN=2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:49:15" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="1:ip = 192.168.8.15  链接号 = 0 sn = 218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:49:14" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.15：本次获取SN=218F1B98FFF3791；上周期SN=218F1B98FFF3791" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:49:11" Provider="Collector.CollectShare" EventID="0" Keywords="CNC采集器开启" EventData="2:ip = 192.168.8.16  链接号 = 0 sn = 2D2F1B983FF3797" />
+    <Equipment_CNC Level="消息" TimeCreated="2018/3/15 15:49:10" Provider="Collector.CollectHNCData" EventID="0" Keywords="CNC采集器关闭" EventData="192.168.8.16：本次获

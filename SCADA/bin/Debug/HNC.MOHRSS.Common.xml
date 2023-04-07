@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HNC.MOHRSS.Common</name>
+    </assembly>
+    <members>
+        <member name="T:HNC.MOHRSS.Common.DbHelper">
+            <summary>
+            数据库帮助类
+            </summary>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.Get``1(System.Guid)">
+            <summary>
+            获取一个实体
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <param name="id">主键Id</param>
+            <returns>实体</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.Get``1(System.Object)">
+            <summary>
+            获取一个实体
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <param name="whereConditions">过滤条件（匿名类型）</param>
+            <returns>实体</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.Get``1(System.String,System.Object)">
+            <summary>
+            获取一个实体
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <param name="conditions">条件字符串</param>
+            <param name="parameters">条件字符串参数（匿名类型）</param>
+            <returns>实体</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.Get``1">
+            <summary>
+            获取一个实体（默认获取第一个）
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <returns>实体</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.GetList``1">
+            <summary>
+            获取实体集合
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <returns>实体集合</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.GetList``1(System.Object)">
+            <summary>
+            获取实体集合
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <param name="whereConditions">过滤条件（匿名类型）</param>
+            <returns>实体集合</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.GetList``1(System.String,System.Object)">
+            <summary>
+            获取实体集合
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <param name="conditions">条件字符串</param>
+            <param name="parameters">条件字符串参数（匿名类型）</param>
+            <returns>实体集合</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.GetListPaged``1(System.Int32,System.Int32,System.String,System.String,System.Object)">
+            <summary>
+            获取实体集合
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <param name="pageNumber">页码</param>
+            <param name="rowsPerPage">每页实体数</param>
+            <param name="conditions">条件字符串</param>
+            <param name="orderby">Orderby条件字符串</param>
+            <param name="parameters">条件字符串参数（匿名类型）</param>
+            <returns>实体集合</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.Insert``1(``0)">
+            <summary>
+            插入一个实体
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <param name="entityToInsert">待插入的实体</param>
+            <returns>该实体的Id</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.Update``1(``0)">
+            <summary>
+            更新一个实体
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <param name="entityToUpdate">待更新的实体</param>
+            <returns>受影响的实体数量</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.Delete``1(System.Guid)">
+            <summary>
+            删除实体
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <param name="id">实体主键Id</param>
+            <returns>受影响的实体数量</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.Delete``1(``0)">
+            <summary>
+            删除实体
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <param name="entityToDelete">待删除的实体</param>
+            <returns>受影响的实体数量</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.Delete``1(System.Object)">
+            <summary>
+            删除实体
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <param name="whereConditions">过滤条件（匿名类型）</param>
+            <returns>受影响的实体数量</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.Delete``1(System.String,System.Object)">
+            <summary>
+            删除实体
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <param name="conditions">条件字符串</param>
+            <param name="parameters">条件字符串参数（匿名类型）</param>
+            <returns>受影响的实体数量</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.Count``1(System.String,System.Object)">
+            <summary>
+            获取实体数量
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <param name="conditions">条件字符串</param>
+            <param name="parameters">条件字符串参数（匿名类型）</param>
+            <returns>符合条件的实体数量</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.Count``1(System.Object)">
+            <summary>
+            获取实体数量
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <param name="whereConditions">过滤条件（匿名类型）</param>
+            <returns>符合条件的实体数量</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.EmptyData``1">
+            <summary>
+            清空实体
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <returns>是否成功清空</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.Exist``1(System.String,System.Object)">
+            <summary>
+            判断符合条件的实体是否存在
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <param name="conditions">条件字符串</param>
+            <param name="parameters">条件字符串参数（匿名类型）</param>
+            <returns>符合条件的实体是否存在</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.Exist``1(System.Object)">
+            <summary>
+            判断符合条件的实体是否存在
+            </summary>
+            <typeparam name="T">实体类型（表名）</typeparam>
+            <param name="whereConditions">过滤条件（匿名类型）</param>
+            <returns>符合条件的实体是否存在</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.DbHelper.GetData(System.String)">
+            <summary>
+            获取数据
+            </summary>
+            <param name="sql">查询sql语句</param>
+            <returns>数据</returns>
+        </member>
+        <member name="P:HNC.MOHRSS.Common.DbHelper.SQL">
+            <summary>
+            数据库连接
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Common.AesEncryption">
+            <summary>
+            基于Rijndael算法实现的AES加密类
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Common.AesEncryption.KEY">
+            <summary>
+            对称算法的密钥
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Common.AesEncryption.IV">
+            <summary>
+            对称算法的初始化向量
+            </summary>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.AesEncryption.Encrypt(System.String)">
+            <summary>
+            加密
+            </summary>
+            <param name="plainText">明文</param>
+            <returns>密文（Base64编码）</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.AesEncryption.Decrypt(System.String)">
+            <summary>
+            解密
+            </summary>
+            <param name="cipherTextBase64">密文（Base64编码）</param>
+            <returns>明文</returns>
+        </member>
+        <member name="T:HNC.MOHRSS.Common.MD5Util">
+            <summary>
+            MD5工具
+            </summary>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.MD5Util.GetMD5(System.String)">
+            <summary>
+            获取MD5值
+            </summary>
+            <param name="input">输入字符串</param>
+            <returns>MD5字符串</returns>
+        </member>
+        <member name="T:HNC.MOHRSS.Common.EnumHelper">
+            <summary>
+            枚举帮助类
+            </summary>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.EnumHelper.GetName(System.Enum,System.String)">
+            <summary>
+            获取枚举的名称
+            </summary>
+            <param name="e">枚举</param>
+            <param name="defaultValue">默认值（失败时返回）</param>
+            <returns>枚举的名称</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.EnumHelper.GetRandomValue``1(``0)">
+            <summary>
+            获取枚举的随机值
+            </summary>
+            <typeparam name="T">枚举类型</typeparam>
+            <param name="defaultValue">默认值（失败时返回）</param>
+            <returns>随机枚举值</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.EnumHelper.GetRandomName``1(System.String)">
+            <summary>
+            获取枚举的随机名称
+            </summary>
+            <typeparam name="T">枚举类型</typeparam>
+            <param name="defaultName">默认值（失败时返回）</param>
+            <returns>随机枚举名称</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.EnumHelper.ParseEnum``1(System.Object,``0)">
+            <summary>
+            将对象的类型转换为枚举
+            </summary>
+            <typeparam name="T">枚举类型</typeparam>
+            <param name="value">待转换的对象</param>
+            <param name="defaultValue">默认值（失败时返回）</param>
+            <returns>枚举对象</returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.Tool.CreateDict(System.String[])">
+            <summary>
+            创建字典
+            </summary>
+            <param name="values"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.Tool.DeepCopy(System.Object)">
+            <summary>
+            深复制
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HNC.MOHRSS.Common.Tool.Shuffle``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            将list的顺序打乱
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

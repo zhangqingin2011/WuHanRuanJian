@@ -1,0 +1,770 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7BF0E18-8353-4898-A17B-8D944E0CAD1D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SCADA</RootNamespace>
+    <AssemblyName>HNC-MES</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>C:\Users\admin\Desktop\SACADA\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>EC342CD91A48816490BF5B5817A965CA7BD28DDC</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SCADA_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>main.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.4.2.1\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper, Version=1.50.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>MESlib\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyModbus, Version=5.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EasyModbusTCP.5.5.0\lib\EasyModbus.dll</HintPath>
+    </Reference>
+    <Reference Include="HNC.MES.BLL">
+      <HintPath>MESlib\HNC.MES.BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="HNC.MES.Common">
+      <HintPath>MESlib\HNC.MES.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="HNC.MES.DAL">
+      <HintPath>MESlib\HNC.MES.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="HNC.MES.Model">
+      <HintPath>MESlib\HNC.MES.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="HNC.MOHRSS.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\HNC.MOHRSS.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="HNC.MOHRSS.Model, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\HNC.MOHRSS.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="HNCBase">
+      <HintPath>..\Dlls\HNCBase.dll</HintPath>
+    </Reference>
+    <Reference Include="HncDACore">
+      <HintPath>..\Dlls\HncDACore.dll</HintPath>
+    </Reference>
+    <Reference Include="hncData">
+      <HintPath>..\Dlls\hncData.dll</HintPath>
+    </Reference>
+    <Reference Include="hncDataInterface">
+      <HintPath>..\Dlls\hncDataInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="HncNetDll, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\HncNetDll.dll</HintPath>
+    </Reference>
+    <Reference Include="HNC_APIWrapper">
+      <HintPath>..\HNC_APIWrapper\bin\x86\Debug\HNC_APIWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="HNC_MacDataService">
+      <HintPath>..\HNC_MacDataService\bin\Debug\HNC_MacDataService.dll</HintPath>
+    </Reference>
+    <Reference Include="logdll">
+      <HintPath>lib\logdll.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore, Version=2.2.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Abstractions, Version=2.2.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.Abstractions.2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Proxies, Version=2.2.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.Proxies.2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Proxies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Relational, Version=2.2.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.Relational.2.2.4\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Caching.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Memory, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Caching.Memory.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Binder, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Binder.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.FileExtensions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.FileExtensions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.FileExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Json, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Json.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.2.2.0\lib\net461\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Physical, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Physical.2.2.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Physical.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileSystemGlobbing, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileSystemGlobbing.2.2.0\lib\netstandard2.0\Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Options.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MITSUBISHI.Component.DotUtlType, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6b44489e63a9c4bd, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\MITSUBISHI.Component.DotUtlType.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\Dlls\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="mysql.data, Version=6.10.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>MySQL\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=4.0.7.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Npgsql.4.0.7\lib\net451\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql.EntityFrameworkCore.PostgreSQL, Version=2.2.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Npgsql.EntityFrameworkCore.PostgreSQL.2.2.4\lib\netstandard2.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Linq, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Remotion.Linq.2.2.0\lib\net45\Remotion.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.5.0\lib\netstandard2.0\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.4.5.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\Dlls\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.5.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Interactive.Async, Version=3.2.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Interactive.Async.3.2.0\lib\net46\System.Interactive.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Dynamic.Core, Version=1.0.19.0, Culture=neutral, PublicKeyToken=0f07ec44de6ac832, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Dynamic.Core.1.0.19\lib\net46\System.Linq.Dynamic.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Management.Instrumentation" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dlls\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoSizeFormClass.cs" />
+    <Compile Include="ChangeLanguage.cs" />
+    <Compile Include="CHCNetSDK.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ControlExtensions.cs" />
+    <Compile Include="EFCore\Config.cs" />
+    <Compile Include="EFCore\Entity.cs" />
+    <Compile Include="EFCore\Log.cs" />
+    <Compile Include="EFCore\MeterMode.cs" />
+    <Compile Include="EFCore\MeterResult.cs" />
+    <Compile Include="EFCore\MMCSDbContext.cs" />
+    <Compile Include="EFCore\MMCSDbInitializer.cs" />
+    <Compile Include="EFCore\MMCSRepository.cs" />
+    <Compile Include="EFCore\Panel.cs" />
+    <Compile Include="EFCore\Permission.cs" />
+    <Compile Include="EFCore\PLCAlarm.cs" />
+    <Compile Include="EFCore\KeyValueData.cs" />
+    <Compile Include="EFCore\RackUnitData.cs" />
+    <Compile Include="EFCore\Settings.cs" />
+    <Compile Include="EFCore\StaticsData.cs" />
+    <Compile Include="EFCore\TableUnitData.cs" />
+    <Compile Include="EFCore\Users.cs" />
+    <Compile Include="EFCore\WorkOrderData.cs" />
+    <Compile Include="Lightcommunicate.cs" />
+    <Compile Include="LineDevice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MeasureAPP\KEYENCE.cs" />
+    <Compile Include="MeasureAPP\LineDetectBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeasureAPP\LineDetectBase.Designer.cs" />
+    <Compile Include="MeasureAPP\SerialPortCommBase.cs" />
+    <Compile Include="MeasureAPP\ZYLY.cs" />
+    <Compile Include="modbus.cs" />
+    <Compile Include="Collector\CGlbFunc.cs" />
+    <Compile Include="Collector\Collector\CollectAxisData.cs" />
+    <Compile Include="Collector\Collector\CollectChanData.cs" />
+    <Compile Include="Collector\Collector\CollectData.cs" />
+    <Compile Include="Collector\Collector\CollectHNCData.cs" />
+    <Compile Include="Collector\Collector\CollectShare.cs" />
+    <Compile Include="Collector\Collector\CollectSysData.cs" />
+    <Compile Include="EquipmentCheck.cs" />
+    <Compile Include="Localization.cs" />
+    <Compile Include="LogData.cs" />
+    <Compile Include="Model\CheckStockStatus.cs" />
+    <Compile Include="Model\IDatabase.cs" />
+    <Compile Include="Model\MetrialType.cs" />
+    <Compile Include="MultiLanguage.cs" />
+    <Compile Include="m_xmlDociment.cs" />
+    <Compile Include="NCTaskDel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NewApp\AlarmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\AlarmForm.Designer.cs">
+      <DependentUpon>AlarmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\broadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\broadForm.Designer.cs">
+      <DependentUpon>broadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\CNCForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\CNCForm.Designer.cs">
+      <DependentUpon>CNCForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\CncNewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\CncNewForm.Designer.cs">
+      <DependentUpon>CncNewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\CncUnit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewApp\CncUnit.Designer.cs">
+      <DependentUpon>CncUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\ConfigXmlReader.cs" />
+    <Compile Include="NewApp\DeviceMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\DeviceMainForm.Designer.cs">
+      <DependentUpon>DeviceMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\Form_LogFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\Form_LogFind.Designer.cs">
+      <DependentUpon>Form_LogFind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\GcodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\GcodeForm.Designer.cs">
+      <DependentUpon>GcodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\IOShow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewApp\IOShow.Designer.cs">
+      <DependentUpon>IOShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\LineAlarmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\LineAlarmForm.Designer.cs">
+      <DependentUpon>LineAlarmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\LineMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\LineMainForm.Designer.cs">
+      <DependentUpon>LineMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\LOGForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\LOGForm.Designer.cs">
+      <DependentUpon>LOGForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\MeasureForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\MeasureForm.Designer.cs">
+      <DependentUpon>MeasureForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\NoTray.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewApp\NoTray.Designer.cs">
+      <DependentUpon>NoTray.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\OrderMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\OrderMainForm.Designer.cs">
+      <DependentUpon>OrderMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\OrderExcuteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\OrderExcuteForm.Designer.cs">
+      <DependentUpon>OrderExcuteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\PLCForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\PLCForm.Designer.cs">
+      <DependentUpon>PLCForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\PositionBind.cs" />
+    <Compile Include="NewApp\QualityRecordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\QualityRecordForm.Designer.cs">
+      <DependentUpon>QualityRecordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\QualitySetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\QualitySetForm.Designer.cs">
+      <DependentUpon>QualitySetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\QualityShowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\QualityShowForm.Designer.cs">
+      <DependentUpon>QualityShowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\RFIDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\RFIDForm.Designer.cs">
+      <DependentUpon>RFIDForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\RFIDTestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\RFIDTestForm.Designer.cs">
+      <DependentUpon>RFIDTestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\RFIDUnit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewApp\RFIDUnit.Designer.cs">
+      <DependentUpon>RFIDUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\RobotForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\RobotForm.Designer.cs">
+      <DependentUpon>RobotForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\RobotUnit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewApp\RobotUnit.Designer.cs">
+      <DependentUpon>RobotUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\TableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\TableForm.Designer.cs">
+      <DependentUpon>TableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\SetForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\SetForm2.Designer.cs">
+      <DependentUpon>SetForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\StatisticsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\StatisticsForm.Designer.cs">
+      <DependentUpon>StatisticsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\StockBinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\StockBinForm.Designer.cs">
+      <DependentUpon>StockBinForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\SygoleRFID.cs" />
+    <Compile Include="NewApp\SYSSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\SYSSetForm.Designer.cs">
+      <DependentUpon>SYSSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\TableUnit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewApp\TableUnit.Designer.cs">
+      <DependentUpon>TableUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\TestWMSForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewApp\TestWMSForm.Designer.cs">
+      <DependentUpon>TestWMSForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewApp\RackUnit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewApp\RackUnit.Designer.cs">
+      <DependentUpon>RackUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CovertMethod.cs" />
+    <Compile Include="PLCData.cs" />
+    <Compile Include="PLC\ControlPLC.cs" />
+    <Compile Include="PLC\ExtendPLC.cs" />
+    <Compile Include="PLC\ModbusTCPClient.cs" />
+    <Compile Include="PLC\UnitPLC.cs" />
+    <Compile Include="PLC\WMSPLC.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MeasureAPP\LineDetectBase.resx" />
+    <EmbeddedResource Include="Model\UserControl1.resx" />
+    <EmbeddedResource Include="NewApp\AlarmForm.resx">
+      <DependentUpon>AlarmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\broadForm.resx">
+      <DependentUpon>broadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\CNCForm.resx">
+      <DependentUpon>CNCForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\CncNewForm.resx">
+      <DependentUpon>CncNewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\CncUnit.resx">
+      <DependentUpon>CncUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\DeviceMainForm.resx">
+      <DependentUpon>DeviceMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\Form_LogFind.resx">
+      <DependentUpon>Form_LogFind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\GcodeForm.resx">
+      <DependentUpon>GcodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\IOShow.resx">
+      <DependentUpon>IOShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\LineAlarmForm.resx">
+      <DependentUpon>LineAlarmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\LineMainForm.resx">
+      <DependentUpon>LineMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\LOGForm.resx">
+      <DependentUpon>LOGForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\MeasureForm.resx">
+      <DependentUpon>MeasureForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\NoTray.resx">
+      <DependentUpon>NoTray.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\OrderMainForm.resx">
+      <DependentUpon>OrderMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\OrderExcuteForm.resx">
+      <DependentUpon>OrderExcuteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\PLCForm.resx">
+      <DependentUpon>PLCForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\QualityRecordForm.resx">
+      <DependentUpon>QualityRecordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\QualitySetForm.resx">
+      <DependentUpon>QualitySetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\QualityShowForm.resx">
+      <DependentUpon>QualityShowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\RFIDForm.resx">
+      <DependentUpon>RFIDForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\RFIDTestForm.resx">
+      <DependentUpon>RFIDTestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\RFIDUnit.resx">
+      <DependentUpon>RFIDUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\RobotForm.resx">
+      <DependentUpon>RobotForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\RobotUnit.resx">
+      <DependentUpon>RobotUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\TableForm.resx">
+      <DependentUpon>TableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\SetForm2.resx">
+      <DependentUpon>SetForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\StatisticsForm.resx">
+      <DependentUpon>StatisticsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\StockBinForm.resx">
+      <DependentUpon>StockBinForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\SYSSetForm.resx">
+      <DependentUpon>SYSSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\TableUnit.resx">
+      <DependentUpon>TableUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\TestWMSForm.resx">
+      <DependentUpon>TestWMSForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewApp\RackUnit.resx">
+      <DependentUpon>RackUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ScadaHncData\ScadaHncData.csproj">
+      <Project>{e87d9cf8-eeab-49fb-855d-1eb7ed5c66b4}</Project>
+      <Name>ScadaHncData</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sygole.HFReader\Sygole.HFReader.csproj">
+      <Project>{396b23a0-b4dc-4e69-8aee-ee07a01a482c}</Project>
+      <Name>Sygole.HFReader</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\picture\back1.png" />
+    <None Include="bin\picture\tabBack.png" />
+    <None Include="bin\picture\titleBack.png" />
+    <Content Include="Chinese.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="main.ico" />
+    <Content Include="msvcp100d.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="msvcr100d.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\feedrate.jpg" />
+    <None Include="Resources\IMG_8432.JPG" />
+    <Content Include="Resources\P1.png" />
+    <Content Include="Resources\P10.png" />
+    <Content Include="Resources\P11.png" />
+    <Content Include="Resources\P12.png" />
+    <Content Include="Resources\P2.png" />
+    <Content Include="Resources\P3.png" />
+    <Content Include="Resources\P4.png" />
+    <Content Include="Resources\P5.png" />
+    <Content Include="Resources\P6.png" />
+    <Content Include="Resources\P7.png" />
+    <Content Include="Resources\P8.png" />
+    <Content Include="Resources\P9.png" />
+    <Content Include="Resources\rapid.jpg" />
+    <Content Include="Resources\RFID.png" />
+    <Content Include="Resources\Robot.png" />
+    <Content Include="Resources\Robot1.png" />
+    <Content Include="Resources\spindle.jpg" />
+    <None Include="Resources\top-hcnc.png" />
+    <Content Include="Resources\titleBack.png" />
+    <Content Include="Resources\top_bar_black.png" />
+    <Content Include="Resources\top_bar_green.png" />
+    <Content Include="Resources\top_bar_red.png" />
+    <None Include="Resources\料仓平面图.png" />
+    <Content Include="Resources\vmc850-1.png" />
+    <None Include="Resources\总控柜.png" />
+    <None Include="Resources\录像机.JPG" />
+    <Content Include="Resources\录像机.png" />
+    <None Include="top_bar_green.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="top_bar_black.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DATA\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,12 @@
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_MacDataService\bin\Release\HNC_MacDataService.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_MacDataService\bin\Release\HNC_MacDataService.pdb
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_MacDataService\bin\Release\HNCCommonData.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_MacDataService\bin\Release\HNC_APIWrapper.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_MacDataService\bin\Release\Newtonsoft.Json.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_MacDataService\bin\Release\StackExchange.Redis.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_MacDataService\bin\Release\HNC_APIWrapper.pdb
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_MacDataService\obj\Release\HNC_MacDataService.csprojAssemblyReference.cache
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_MacDataService\obj\Release\HNC_MacDataService.csproj.CoreCompileInputs.cache
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_MacDataService\obj\Release\HNC_MacDataService.csproj.CopyComplete
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_MacDataService\obj\Release\HNC_MacDataService.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_MacDataService\obj\Release\HNC_MacDataService.pdb

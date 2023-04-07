@@ -1,0 +1,14 @@
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_APIWrapper\bin\x86\Release\HNC_APIWrapper.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_APIWrapper\bin\x86\Release\HNC_APIWrapper.pdb
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_APIWrapper\bin\x86\Release\HNCCommonData.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_APIWrapper\bin\x86\Release\Newtonsoft.Json.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_APIWrapper\bin\x86\Release\ServiceStack.Common.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_APIWrapper\bin\x86\Release\ServiceStack.Interfaces.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_APIWrapper\bin\x86\Release\ServiceStack.Redis.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_APIWrapper\bin\x86\Release\ServiceStack.Text.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_APIWrapper\bin\x86\Release\StackExchange.Redis.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_APIWrapper\obj\x86\Release\HNC_DEF.csprojAssemblyReference.cache
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_APIWrapper\obj\x86\Release\HNC_DEF.csproj.CoreCompileInputs.cache
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_APIWrapper\obj\x86\Release\HNC_DEF.csproj.CopyComplete
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_APIWrapper\obj\x86\Release\HNC_APIWrapper.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\HNC_APIWrapper\obj\x86\Release\HNC_APIWrapper.pdb

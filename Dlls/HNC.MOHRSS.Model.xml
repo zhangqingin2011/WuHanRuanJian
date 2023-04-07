@@ -1,0 +1,689 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HNC.MOHRSS.Model</name>
+    </assembly>
+    <members>
+        <member name="T:HNC.MOHRSS.Model.Cutter">
+            <summary>
+            刀具
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.ModelBase">
+            <summary>
+            模型抽象类（主键是Guid类型）
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.ModelBase`1">
+            <summary>
+            模型抽象类
+            </summary>
+        </member>
+        <member name="M:HNC.MOHRSS.Model.ModelBase`1.#ctor">
+            <summary>
+            创建ModelBase的新实例
+            </summary>
+        </member>
+        <member name="M:HNC.MOHRSS.Model.ModelBase`1.ToString">
+            <summary>
+            对象的全部属性值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.ModelBase`1.Id">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Cutter.SN">
+            <summary>
+            刀号
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Cutter.Radius">
+            <summary>
+            半径（单位mm）
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Cutter.RadiusAbrasion">
+            <summary>
+            半径磨损（单位mm）
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Cutter.Length">
+            <summary>
+            长度（单位mm）
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Cutter.LengthAbrasion">
+            <summary>
+            长度磨损（单位mm）
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Cutter.MachineId">
+            <summary>
+            车床或加工中心
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.Gauge">
+            <summary>
+            测量
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Gauge.UserId">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Gauge.StorageBinId">
+            <summary>
+            仓位
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Gauge.Result">
+            <summary>
+            测量结果
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Gauge.UpdatedTime">
+            <summary>
+            最后更新时间
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.GaugeDetail">
+            <summary>
+            测量结果明细
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.GaugeDetail.GaugeId">
+            <summary>
+            测量
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.GaugeDetail.SN">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.GaugeDetail.ReferenceValue">
+            <summary>
+            参考值
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.GaugeDetail.ActualValue">
+            <summary>
+            实际值
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.EnumLatheState">
+            <summary>
+            车床状态枚举
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumLatheState.Offline">
+            <summary>
+            离线
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumLatheState.Idle">
+            <summary>
+            空闲
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumLatheState.Running">
+            <summary>
+            运行
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumLatheState.Error">
+            <summary>
+            故障
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.EnumLatheChuckState">
+            <summary>
+            车床卡盘状态
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumLatheChuckState.Loose">
+            <summary>
+            松开
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumLatheChuckState.Tight">
+            <summary>
+            夹紧
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.EnumLatheDoorState">
+            <summary>
+            车床开关门状态
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumLatheDoorState.Closed">
+            <summary>
+            关闭
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumLatheDoorState.Open">
+            <summary>
+            打开
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.Lathe">
+            <summary>
+            车床
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Lathe.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Lathe.SiteX">
+            <summary>
+            X轴位置
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Lathe.Load_Current_X">
+            <summary>
+            X轴负载电流
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Lathe.SiteZ">
+            <summary>
+            Z轴位置
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Lathe.Load_Current_Z">
+            <summary>
+            Z轴负载电流
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Lathe.SiteC">
+            <summary>
+            C轴位置
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Lathe.Load_Current_C">
+            <summary>
+            C轴负载电流
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Lathe.SpindleSpeed">
+            <summary>
+            主轴转速
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Lathe.Feedrate">
+            <summary>
+            进给速率
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Lathe.WorkpieceProgram">
+            <summary>
+            当前加工程序
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Lathe.InstructionsCount">
+            <summary>
+            当前加工指令行数
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Lathe.StorageBinId">
+            <summary>
+            仓位
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Lathe.Chuck">
+            <summary>
+            卡盘
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Lathe.Door">
+            <summary>
+            开关门
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.EnumMachiningCenterState">
+            <summary>
+            加工中心状态枚举
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumMachiningCenterState.Offline">
+            <summary>
+            离线
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumMachiningCenterState.Idle">
+            <summary>
+            空闲
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumMachiningCenterState.Running">
+            <summary>
+            运行
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumMachiningCenterState.Error">
+            <summary>
+            故障
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.EnumMachiningCenterChuckState">
+            <summary>
+            加工中心卡盘状态
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumMachiningCenterChuckState.Loose">
+            <summary>
+            松开
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumMachiningCenterChuckState.Tight">
+            <summary>
+            夹紧
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.EnumMachiningCenterDoorState">
+            <summary>
+            加工中心开关门状态
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumMachiningCenterDoorState.Closed">
+            <summary>
+            关闭
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumMachiningCenterDoorState.Open">
+            <summary>
+            打开
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.MachiningCenter">
+            <summary>
+            加工中心
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.SiteX">
+            <summary>
+            X轴位置
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.Load_Current_X">
+            <summary>
+            X轴负载电流
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.SiteY">
+            <summary>
+            Y轴位置
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.Load_Current_Y">
+            <summary>
+            Y轴负载电流
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.SiteZ">
+            <summary>
+            Z轴位置
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.Load_Current_Z">
+            <summary>
+            Z轴负载电流
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.SiteC">
+            <summary>
+            C轴位置
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.Load_Current_C">
+            <summary>
+            C轴负载电流
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.SpindleSpeed">
+            <summary>
+            主轴转速
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.Feedrate">
+            <summary>
+            进给速率
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.WorkpieceProgram">
+            <summary>
+            当前加工程序
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.InstructionsCount">
+            <summary>
+            当前加工指令行数
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.StorageBinId">
+            <summary>
+            仓位
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.Chuck">
+            <summary>
+            平口钳卡盘
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.Chuck2">
+            <summary>
+            快换卡盘
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.MachiningCenter.Door">
+            <summary>
+            开关门
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.EnumOrderOperation">
+            <summary>
+            订单操作枚举
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.Order">
+            <summary>
+            订单
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Order.UserId">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Order.StorageBinId">
+            <summary>
+            仓位
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Order.Operation">
+            <summary>
+            操作
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.EnumRobotState">
+            <summary>
+            机器人状态枚举
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumRobotState.Running">
+            <summary>
+            运行
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumRobotState.Error">
+            <summary>
+            故障
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.EnumRobotMode">
+            <summary>
+            机器人模式枚举
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumRobotMode.Manual">
+            <summary>
+            手动
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumRobotMode.Automatic">
+            <summary>
+            自动
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumRobotMode.External">
+            <summary>
+            外部
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.Robot">
+            <summary>
+            机器人
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Robot.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Robot.Mode">
+            <summary>
+            模式
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Robot.IsOriginalPoint">
+            <summary>
+            home点
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Robot.SiteJ1">
+            <summary>
+            J1位置
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Robot.SiteJ2">
+            <summary>
+            J2位置
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Robot.SiteJ3">
+            <summary>
+            J3位置
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Robot.SiteJ4">
+            <summary>
+            J4位置
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Robot.SiteJ5">
+            <summary>
+            J5位置
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Robot.SiteJ6">
+            <summary>
+            J6位置
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Robot.SiteJ7">
+            <summary>
+            J7位置
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.Test">
+            <summary>
+            测试表
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Test.CInt">
+            <summary>
+            整形字段
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.Test.CString">
+            <summary>
+            字符串字段
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.User">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.User.Username">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.User.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.EnumBinState">
+            <summary>
+            料仓状态枚举
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumBinState.Empty">
+            <summary>
+            无料（无）
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumBinState.Wait">
+            <summary>
+            待加工（灰）
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumBinState.In">
+            <summary>
+            正在加工（蓝）
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumBinState.Qualified">
+            <summary>
+            合格品（绿）
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumBinState.Unqualified">
+            <summary>
+            不合格品（黄）
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumBinState.Lathe">
+            <summary>
+            车床加工完成（橙）
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumBinState.MachiningCenter">
+            <summary>
+            加工中心加工完成（紫）
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumBinState.Error">
+            <summary>
+            异常（红）
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.EnumSession">
+            <summary>
+            场次枚举
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumSession.None">
+            <summary>
+            无
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumSession.A">
+            <summary>
+            场次A
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumSession.B">
+            <summary>
+            场次B
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumSession.C">
+            <summary>
+            场次C
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumSession.D">
+            <summary>
+            场次D
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumSession.E">
+            <summary>
+            场次E
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumSession.F">
+            <summary>
+            场次F
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.StorageBin">
+            <summary>
+            料仓
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.StorageBin.SN">
+            <summary>
+            序号（1-30）
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.StorageBin.WorkpieceCategoryId">
+            <summary>
+            工件类型(A-D)
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.StorageBin.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.StorageBin.Session">
+            <summary>
+            场次
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.EnumWorkpieceCategory">
+            <summary>
+            工件类型枚举
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumWorkpieceCategory.A">
+            <summary>
+            工件A
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumWorkpieceCategory.B">
+            <summary>
+            工件B
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumWorkpieceCategory.C">
+            <summary>
+            工件C
+            </summary>
+        </member>
+        <member name="F:HNC.MOHRSS.Model.EnumWorkpieceCategory.D">
+            <summary>
+            工件D
+            </summary>
+        </member>
+        <member name="T:HNC.MOHRSS.Model.WorkpieceCategory">
+            <summary>
+            工件类型(A-D)
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.WorkpieceCategory.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:HNC.MOHRSS.Model.WorkpieceCategory.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,19 @@
+E:\！工作汇总\! 19-S6演示软件（全功能）\InOne_485\SygoleDemo\Sygole.HFReader\bin\Release\Sygole.HFReader.dll
+E:\！工作汇总\! 19-S6演示软件（全功能）\InOne_485\SygoleDemo\Sygole.HFReader\bin\Release\Sygole.HFReader.pdb
+E:\！工作汇总\! 19-S6演示软件（全功能）\InOne_485\SygoleDemo\Sygole.HFReader\obj\Release\ResolveAssemblyReference.cache
+E:\！工作汇总\! 19-S6演示软件（全功能）\InOne_485\SygoleDemo\Sygole.HFReader\obj\Release\Sygole.HFReader.dll
+E:\！工作汇总\! 19-S6演示软件（全功能）\InOne_485\SygoleDemo\Sygole.HFReader\obj\Release\Sygole.HFReader.pdb
+C:\Users\pc\Desktop\SCADA展会\SCADA\Sygole.HFReader\bin\Release\Sygole.HFReader.dll
+C:\Users\pc\Desktop\SCADA展会\SCADA\Sygole.HFReader\bin\Release\Sygole.HFReader.pdb
+C:\Users\pc\Desktop\SCADA展会\SCADA\Sygole.HFReader\obj\Release\Sygole.HFReader.dll
+C:\Users\pc\Desktop\SCADA展会\SCADA\Sygole.HFReader\obj\Release\Sygole.HFReader.pdb
+C:\Users\admin\Desktop\SCAD2016-2-14(1)\SCADA\Sygole.HFReader\bin\Release\Sygole.HFReader.dll
+C:\Users\admin\Desktop\SCAD2016-2-14(1)\SCADA\Sygole.HFReader\bin\Release\Sygole.HFReader.pdb
+C:\Users\admin\Desktop\SCAD2016-2-14(1)\SCADA\Sygole.HFReader\obj\Release\Sygole.HFReader.dll
+C:\Users\admin\Desktop\SCAD2016-2-14(1)\SCADA\Sygole.HFReader\obj\Release\Sygole.HFReader.pdb
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\SCADA\Sygole.HFReader\bin\Release\Sygole.HFReader.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\SCADA\Sygole.HFReader\bin\Release\Sygole.HFReader.pdb
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\SCADA\Sygole.HFReader\obj\Release\Sygole.HFReader.csprojAssemblyReference.cache
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\SCADA\Sygole.HFReader\obj\Release\Sygole.HFReader.csproj.CoreCompileInputs.cache
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\SCADA\Sygole.HFReader\obj\Release\Sygole.HFReader.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\SCADA\Sygole.HFReader\obj\Release\Sygole.HFReader.pdb

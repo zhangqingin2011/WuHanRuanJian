@@ -1,0 +1,15 @@
+orderstatefile文件格式
+//序号  料仓编号    工序1     工序2        工序3     工序4       订单         检测结果
+//item=0,magno=5 ,fun1=完成,fun2=进行中,fun3=未开始，fun4=无，down = 进行中，check= 无；
+//序号
+//工序 进行中、完成
+//订单下发 进行中、完成、待返修
+//检测结果 无，合格，不合格
+
+item = 0,magno = 5,fun1 = 完成,fun2=无,fun3=无,fun4=无,down = 完成,check= 0；
+item = 1,magno = 5,fun1 = 完成,fun2=进行中,fun3=0，fun4=0,own = 0,check= 0；
+
+orderdatafile文件格式
+//序号 料仓编号     工序1    工序2       工序3    工序4  订单下发     返修工序   返修确定
+//item=0,magno= ,fun1=车工序,fun2=铣工序,fun3=车，fun4=无，down =是，  back=无， backdown=否；
+//序号

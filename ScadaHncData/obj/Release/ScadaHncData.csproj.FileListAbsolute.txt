@@ -1,0 +1,6 @@
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\ScadaHncData\bin\Release\ScadaHncData.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\ScadaHncData\bin\Release\ScadaHncData.pdb
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\ScadaHncData\obj\Release\ScadaHncData.csprojAssemblyReference.cache
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\ScadaHncData\obj\Release\ScadaHncData.csproj.CoreCompileInputs.cache
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\ScadaHncData\obj\Release\ScadaHncData.dll
+C:\工作\教育和工业项目资料\92内蒙古\资料接收0806\内蒙古大学项目v1.10808\内蒙古大学项目v1.1\ScadaHncData\obj\Release\ScadaHncData.pdb

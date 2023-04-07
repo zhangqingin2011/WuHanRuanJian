@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ScadaHncData
+{
+    [Serializable]
+    public class ShareData : MarshalByRefObject
+    {
+        public List<HNCData> ncDatas;
+        public List<PLCData> plcData;
+
+        public ShareData()
+        {
+            ncDatas = new List<HNCData>();
+            plcData = new List<PLCData>();
+        }
+    }
+}

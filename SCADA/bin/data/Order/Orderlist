@@ -1,0 +1,2 @@
+item=1,magno=14,fun1=lathe,fun2=cnc,pickedfun=fun2,pickedstep=unload,process1state=unloaded,process2state=unloaded,measure=ok;
+item=2,magno=16,fun1=lathe,fun2=cnc,pickedfun=fun2,pickedstep=unload,process1state=unloaded,process2state=unloaded,measure=ok;
